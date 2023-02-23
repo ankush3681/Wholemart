@@ -13,6 +13,7 @@ import Women from "../Pages/Women";
 import Home from "../components/Home"
 import Cart from "../Pages/Cart";
 import Login from "../Pages/Login";
+import Signin from "../Pages/Signin";
 
 const AllRoute = () =>{
     return <Routes>
@@ -30,6 +31,7 @@ const AllRoute = () =>{
     <Route path="/clearance" element={<Clearance/>}></Route>
     <Route path="/cart" element={<Cart/>}></Route>
     <Route path="/login" element={<Login/>}></Route>
+    <Route path="/signin" element={<Signin/>}></Route>
     </Routes>
 }
 

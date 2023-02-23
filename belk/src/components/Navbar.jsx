@@ -1,8 +1,13 @@
-import { Box,Flex, Spacer,Input,Center,Image } from '@chakra-ui/react';
+import { Box,Flex, Spacer,Input,InputGroup,Image, Button,InputRightElement } from '@chakra-ui/react';
 import { color } from 'framer-motion';
 import { NavLink,Link } from 'react-router-dom';
 import "./Navbar.css";
 import logo from "./logo.png";
+import { useContext } from 'react';
+import { AuthContext } from '../context/AuthContextProvider';
+import {TiShoppingCart} from "react-icons/ti";
+import {AiOutlineSearch} from "react-icons/ai";
+
 
 
 let lower_link = [
@@ -22,25 +27,33 @@ let lower_link = [
 
 
 const Navbar = () =>{
+
+    const {isAuth,logout} = useContext(AuthContext);
+
+
     return <>
 
     {/* Navbar Upper Part */}
 
-    <Box w='100%' position="fixed" top="0" bg="white">
-    <Box bg='#EDF2F7' w='100%' margin="auto" p={4} h="50px" color='white'>
+    <Box w='100%' position="fixed" top="0" bg="white" zIndex="100">
+    <Box bg='#EDF2F7' w='100%' margin="auto" p={2}  color='white'>
      <Flex w="80%" h="100%" m="auto">
      <Box w="20%" h="100%" color="black">
         <Link to="/"><Image src={logo} w="90%" /></Link>
         
      </Box>
-     <Box w="50%" h="100%" p={5}>
-     <Input placeholder='May I Help You?' w="100%" h="70%" variant='filled' focusBorderColor='pink.400'/>
+     <Box w="50%" h="100%" >
+     <InputGroup>
+     <Input placeholder='Search Here to Find Products' p={5} textAlign="center" border="1px solid grey"/>
+     <InputRightElement children={<AiOutlineSearch color='black' />} />
+     </InputGroup>
      </Box>
-     <Flex w="35%" h="100%" justifyContent="space-evenly" alignItems="center">
+     <Flex w="35%" justifyContent="space-evenly" alignItems="center" color="black">
         <NavLink className= "link" to="/">Belk Reward</NavLink>
         <NavLink className= "link" to="/">Coupan</NavLink>
-        <NavLink className= "link" to="/login">Account</NavLink>
-        <NavLink className= "link" to="/cart">Bag</NavLink>
+       {isAuth ? <Button onClick={logout}>Logout</Button> : <NavLink className= "link" to="/login">Login</NavLink>} 
+        
+        <NavLink className= "link" to="/cart"><TiShoppingCart size={30}/></NavLink>
      </Flex>
 
      </Flex>
@@ -49,20 +62,10 @@ const Navbar = () =>{
 {/* Navbar lower part */}
 
 
-<Box  boxShadow= "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px">
+<Box  boxShadow= "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px" alignContent="center">
 <Flex w='80%' margin="auto" h="50px"  color='black'  alignItems="center">
 <Flex width="60%" justifyContent="space-between" fontWeight="100px" >
-    {/* <NavLink className='link' to="/men" >Men</NavLink>
-    <NavLink className='link'  to="/women" >Women</NavLink>
-    <NavLink className='link'  to="/kid" >Kids</NavLink>
-    <NavLink className='link'  to="/gifts" >Gifts</NavLink>
-    <NavLink className='link'  to="/handbag" >Handbag</NavLink>
-    <NavLink className='link'  to="/shoes" >Shoes</NavLink>
-    <NavLink className='link'  to="/brand" >Brand</NavLink>
-    <NavLink className='link'  to="/beauty" >Beauty</NavLink>
-    <NavLink className='link'  to="/jewelry" >Jewelry</NavLink>
-    <NavLink className='link'  to="/bed&bath" >Bed & Bath</NavLink>
-    <NavLink className='link'  to="/clearance" >Clearance</NavLink> */}
+   
     {lower_link.map((item)=>(
         <NavLink key={item.to}
         style={({isActive})=>{
