@@ -24,7 +24,7 @@ const Home = () =>{
   <Image src="https://belk.scene7.com/is/image/Belk/wk04_022123_hp_fh1?$DWP_PHOTO$"    m="auto"/> 
   <MultipleItems/>
   <Image src="https://belk.scene7.com/is/image/Belk/wk04_2023_haircare_tools_hp?$DWP_PHOTO$"   m="auto" my={10}/> 
-  <Image src="https://belk.scene7.com/is/image/Belk/wk04_022123_hp_fh2?$DWP_PHOTO$"  m="auto" my={10}/> 
+  <Image src="https://static1.lenskart.com/media/desktop/img/Jan23/sunglasses/Sun-Banner-web.gif" w="81%"  m="auto" my={10}/> 
   <FiveAtTime/>
   <Image src="https://belk.scene7.com/is/image/Belk/wk03_2023_spec_champion_nse_hp?$DWP_PHOTO$"   m="auto" my={10}/>  
 
@@ -46,8 +46,7 @@ const Home = () =>{
   </Box>
   
 
- <Footer/>
-  
+ <Footer/>  
 </>
 
 }
@@ -78,6 +77,7 @@ export class MultipleItems extends Component {
           </div>
         
         </Slider>
+        
       </div>
     );
   }

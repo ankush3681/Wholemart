@@ -1,6 +1,6 @@
 import { Box,Flex, Spacer,Input,InputGroup,Image, Button,InputRightElement } from '@chakra-ui/react';
 import { color } from 'framer-motion';
-import { NavLink,Link } from 'react-router-dom';
+import { NavLink,Link,Navigate } from 'react-router-dom';
 import "./Navbar.css";
 import logo from "./logo.png";
 import { useContext } from 'react';
@@ -30,6 +30,14 @@ const Navbar = () =>{
 
     const {isAuth,logout} = useContext(AuthContext);
 
+    const logout_function = async () =>{
+        alert("Logout Successfully");
+        logout();
+        if(!isAuth){
+            return <Navigate to="/login"/>
+        }
+    }
+
 
     return <>
 
@@ -44,14 +52,14 @@ const Navbar = () =>{
      </Box>
      <Box w="50%" h="100%" >
      <InputGroup>
-     <Input placeholder='Search Here to Find Products' p={5} textAlign="center" border="1px solid grey"/>
+     <Input placeholder='Search Here to Find Products' p={5} textAlign="center" border="1px solid grey" bg="white"/>
      <InputRightElement children={<AiOutlineSearch color='black' />} />
      </InputGroup>
      </Box>
      <Flex w="35%" justifyContent="space-evenly" alignItems="center" color="black">
         <NavLink className= "link" to="/">Belk Reward</NavLink>
         <NavLink className= "link" to="/">Coupan</NavLink>
-       {isAuth ? <Button onClick={logout}>Logout</Button> : <NavLink className= "link" to="/login">Login</NavLink>} 
+       {isAuth ? <Button fontSize={15} color="grey" onClick={logout_function}>Logout</Button> : <NavLink className= "link" to="/login">Login</NavLink>} 
         
         <NavLink className= "link" to="/cart"><TiShoppingCart size={30}/></NavLink>
      </Flex>
