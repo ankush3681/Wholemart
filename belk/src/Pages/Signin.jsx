@@ -7,13 +7,16 @@ import {AuthContext} from '../context/AuthContextProvider';
 import logo from "./login_logo.jpg";
 import {AiOutlineFacebook} from "react-icons/ai";
 import {FcGoogle} from "react-icons/fc";
-import {AiOutlineMail} from "react-icons/ai";
+import {AiOutlineApple} from "react-icons/ai";
+import { useNavigate } from 'react-router-dom';
 
 const Signin = ({children}) => {
     const {nameOfUser} = useContext(AuthContext);
     const [name,setName] = useState("");
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
+
+    const navigate = useNavigate();
 
     const handleClick=()=>{
       const initState = {
@@ -25,10 +28,12 @@ const Signin = ({children}) => {
         method:"post",
         url:`https://reqres.in/api/register`,
         data:initState
-      }).then(()=>{
+      }).then((res)=>{
         nameOfUser(name);
         alert(`Hello ${name}, Account Created Successfully.`);
-        window.location.href="./Login"
+       if(res.data.token){
+          navigate("/login")
+       }
       }).catch(()=>{
         alert("Please provide valid details")
       })
@@ -70,17 +75,17 @@ const Signin = ({children}) => {
      />
     <br />
     <br />
-    <Button w="80%" cursor="pointer" bg="#4299E1" border="1px solid black" color="white" borderRadius="5px" fontSize={18}  onClick={handleClick} >Login </Button>
+    <Button w="80%" cursor="pointer" bg="#4299E1" border="1px solid black" color="white" borderRadius="5px" fontSize={18}  onClick={handleClick} >SignUp </Button>
     <br />
     <br />
     <Box>
       <Center fontWeight="bold">Or sign Up Using</Center><br />
-      <Flex w="80%" m="auto" border="1px solid #4299E1" borderRadius="5px" py={1} cursor="pointer" bg="#2C5282" color="white" justifyContent="space-evenly"  fontFamily="sans-serif"><AiOutlineFacebook size={25}/> SIGNUP WITH FACEBOOK</Flex>
+      <Flex w="80%" m="auto" border="1px solid #4299E1" borderRadius="5px" py={1} cursor="pointer" bg="#2C5282" color="white" justifyContent="space-evenly" alignItems={"center"} fontFamily="sans-serif"><AiOutlineFacebook size={25}/> SIGNUP WITH FACEBOOK</Flex>
     <br />
-      <Flex w="80%" m="auto"  border="1px solid #4299E1" borderRadius="5px" py={1} cursor="pointer" bg="#718096" color="white" justifyContent="space-evenly"  fontFamily="sans-serif"><FcGoogle size={25}/> SIGNUP WITH GOOGLE</Flex>
+      <Flex w="80%" m="auto"  border="1px solid #4299E1" borderRadius="5px" py={1} cursor="pointer" bg="#718096" color="white" justifyContent="space-evenly" alignItems={"center"} fontFamily="sans-serif"><FcGoogle size={25}/> SIGNUP WITH GOOGLE</Flex>
     <br />
-      <Flex w="80%" m="auto"  border="1px solid #4299E1" borderRadius="5px" color="white" py={1} bg="#E53E3E
-" cursor="pointer" justifyContent="space-evenly" fontFamily="sans-serif"><AiOutlineMail size={25}/>SIGNUP WITH EMAIL</Flex>
+      <Flex w="80%" m="auto"  border="1px solid #4299E1" borderRadius="5px" color="white" py={1} bg="#171923
+" cursor="pointer" justifyContent="space-evenly" alignItems={"center"} fontFamily="sans-serif"><AiOutlineApple size={25}/>SIGNUP WITH APPLE</Flex>
     <br />
     </Box>
     </Box>

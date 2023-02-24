@@ -1,0 +1,1268 @@
+{
+  "mens": [
+    {
+        "price": "943",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/5453186/2018/10/30/ef1d9ca6-156b-4cf6-a52d-1e7f58b51b8b1540888118150-Roadster-Men-Jackets-9141540888117961-1.jpg",
+        "brand": "Puma",
+        "id": "1"
+    },
+    {
+        "price": "900",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17221298/2022/2/19/c5aae71d-7b80-44e6-adc6-703c97cad6a21645269807189CampusMenNavyBlueSportsShoes1.jpg",
+        "brand": "Puma",
+        "id": "2"
+    },
+    {
+        "price": "297",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/13/c464f92d-c08d-472c-8b9e-48616bf737131576191650979-1.jpg",
+        "brand": "Wrong",
+        "id": "3"
+    },
+    {
+        "price": "309",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/9162839/2022/7/13/e22894f7-03cc-4ea8-8916-607d4146096d1657686472746HIGHLANDERMenBlackTaperedFitMid-RiseCleanLookStretchableJean1.jpg",
+        "brand": "Roadster",
+        "id": "4"
+    },
+    {
+        "price": "862",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11964920/2020/6/24/aba49564-4134-4126-ab19-8df7ae2a34d71593000903721HIGHLANDERMenWhiteSlimFitPrintedCasualShirt1.jpg",
+        "brand": "Puma",
+        "id": "5"
+    },
+    {
+        "price": "232",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg",
+        "brand": "Campus",
+        "id": "6"
+    },
+    {
+        "price": "955",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19568344/2022/8/20/c5f64cdf-3e6b-4685-878a-c99f64b4ca391660967557830RedTapeMenBluePufferJacket1.jpg",
+        "brand": "Campus",
+        "id": "7"
+    },
+    {
+        "price": "558",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19935322/2022/11/7/ffccc2da-2e6d-43b0-9e2a-9d875ad269df1667821024989NikeMenBlackRENEWRUN3RunningShoes1.jpg",
+        "brand": "Puma",
+        "id": "8"
+    },
+    {
+        "price": "183",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11048094/2019/12/4/d48fe65b-a011-4679-a584-34abf6b4a1471575443692355-MAG-Men-Kurta-Sets-7361575443690257-1.jpg",
+        "brand": "Campus",
+        "id": "9"
+    },
+    {
+        "price": "633",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15193862/2021/8/19/6d3d17a8-8e7d-4606-a795-779f54e9a06f1629350038736RegularJeans1.jpg",
+        "brand": "Roadster",
+        "id": "10"
+    },
+    {
+        "price": "383",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15835946/2021/10/19/160a361c-a017-4cd9-97e5-350c291cd7a21634625457679HIGHLANDERMenBlackSlimFitTartanChecksOpaqueCheckedCasualShir1.jpg",
+        "brand": "Campus",
+        "id": "11"
+    },
+    {
+        "price": "272",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1996777/2017/11/7/11510046815508-Roadster-Men-Black-Solid-Round-Neck-T-shirt-4011510046815294-1.jpg",
+        "brand": "Wrong",
+        "id": "12"
+    },
+    {
+        "price": "189",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6832161/2018/11/14/2a3c5f0a-d90e-439a-9d71-577d0ba8b1201542196198359-WROGN-Men-Black-Solid-Bomber-3181542196198219-1.jpg",
+        "brand": "Campus",
+        "id": "13"
+    },
+    {
+        "price": "383",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18374118/2022/9/8/15a72fa4-9504-4e0d-82ed-28c5fd6f51f51662612926907-ADIDAS-Men-Sports-Shoes-3911662612926517-1.jpg",
+        "brand": "Adidas",
+        "id": "14"
+    },
+    {
+        "price": "97",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18595870/2022/9/22/accf96f8-1f98-4e58-a8d6-e6b46a20a2bb1663845112759-Anouk-Men-Kurtas-7361663845112153-1.jpg",
+        "brand": "Wrong",
+        "id": "15"
+    },
+    {
+        "price": "843",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13823708/2022/10/19/398d64b2-096b-4a41-9ee9-95c005fc4db01666156159187-Urbano-Fashion-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretc-1.jpg",
+        "brand": "Campus",
+        "id": "16"
+    },
+    {
+        "price": "159",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1272502/2018/2/5/11517823086440-Highlander-White-Slim-Fit-Casual-Shirt-161517823086304-1.jpg",
+        "brand": "Computer",
+        "id": "17"
+    },
+    {
+        "price": "273",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20059494/2022/9/17/c89121dc-e7e5-4c87-a0c5-6a5eab2c37751663433848919TheSouledStoreMenNavyBlueParisSaint-GermainLionelMessiDrop-S1.jpg",
+        "brand": "Wrong",
+        "id": "18"
+    },
+    {
+        "price": "521",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10679220/2019/11/18/ec932921-f003-463d-94ff-fe1879d966861574053560241-Roadster-Men-Jackets-861574053558432-1.jpg",
+        "brand": "Puma",
+        "id": "19"
+    },
+    {
+        "price": "480",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14798084/2022/4/27/ce84b0bd-653a-4516-9105-eafe1164c6de1651050548788CampusMenNavyBlueMeshRunningNon-MarkingShoes1.jpg",
+        "brand": "Campus",
+        "id": "20"
+    },
+    {
+        "price": "962",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15533158/2021/9/20/8d7ba1b3-2994-404e-a5ed-e1061f804c9d1632125274483Hangup3picsKurtaSetwithnehrujacketCottonBlendRegularFit1.jpg",
+        "brand": "Roadster",
+        "id": "21"
+    },
+    {
+        "price": "971",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10046869/2021/12/9/9c11f1af-508a-46c3-beeb-bdc02c7032061639053610049-Roadster-Men-Navy-Blue-Super-Skinny-Fit-Low-Distress-Light-F-1.jpg",
+        "brand": "Campus",
+        "id": "22"
+    },
+    {
+        "price": "159",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20090008/2022/9/20/3201d39b-06ff-4864-a08f-b018a1cab2541663666788404BlackArrowPrintedFullSleevesCottonShirt1.jpg",
+        "brand": "Roadster",
+        "id": "23"
+    },
+    {
+        "price": "619",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2275365/2022/10/20/ff058735-df2c-4d51-bb57-dcf8121013cb1666267396078RoadsterMenWhitePureCottonT-shirt1.jpg",
+        "brand": "Wrong",
+        "id": "24"
+    },
+    {
+        "price": "455",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20437664/2022/10/17/c21c26a8-4362-401f-8d37-42853e36d59b1666021934620LouisPhilippeWhiteJacket1.jpg",
+        "brand": "Adidas",
+        "id": "25"
+    },
+    {
+        "price": "619",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17221298/2022/2/19/c5aae71d-7b80-44e6-adc6-703c97cad6a21645269807189CampusMenNavyBlueSportsShoes1.jpg",
+        "brand": "Adidas",
+        "id": "26"
+    },
+    {
+        "price": "559",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/7/5/1c8d36aa-d7a6-4598-a564-e236ddd64b301562320690270-1.jpg",
+        "brand": "Roadster",
+        "id": "27"
+    },
+    {
+        "price": "414",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6832333/2018/9/14/f0e3a9a6-b1d3-426e-9f5c-0350699140c41536926290358-WROGN-Men-Blue-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jean-1.jpg",
+        "brand": "Wrong",
+        "id": "28"
+    },
+    {
+        "price": "944",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14811424/2021/7/26/d5ffc4e7-f447-4df1-b417-9ac68372cd6e1627300540761-Campus-Sutra-Men-Shirts-6941627300540022-1.jpg",
+        "brand": "Adidas",
+        "id": "29"
+    },
+    {
+        "price": "758",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16407468/2021/12/28/fce7ca1e-01ec-4c12-a90f-c7b75abda0e01640669480687-Difference-of-Opinion-Men-Tshirts-4021640669480120-1.jpg",
+        "brand": "Puma",
+        "id": "30"
+    },
+    {
+        "price": "252",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/9564737/2019/11/7/e9e18815-c96a-4db2-b47d-5bf4995fe3081573103446301-Roadster-Men-Jackets-3391573103444243-1.jpg",
+        "brand": "Wrong",
+        "id": "31"
+    },
+    {
+        "price": "540",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20372394/2022/10/12/b0f9090b-81d7-447a-8aff-2cbb52d44fb41665578185378RedTapeMenBlackTextileWalkingNon-MarkingShoes1.jpg",
+        "brand": "Roadster",
+        "id": "32"
+    },
+    {
+        "price": "536",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19865848/2022/9/9/25db466c-92b0-43e4-9be8-b05a9209c6641662727575530SHRESTHABYVASTRAMAYMenBlackGeometricPrintedThreadWorkGeorget1.jpg",
+        "brand": "Roadster",
+        "id": "33"
+    },
+    {
+        "price": "600",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/8706059/2022/8/25/600ba77d-27a6-4d99-8f31-b349edb6aec81661422693616-HIGHLANDER-Men-Blue-Tapered-Fit-Mid-Rise-Clean-Look-Stretcha-1.jpg",
+        "brand": "Campus",
+        "id": "34"
+    },
+    {
+        "price": "4800",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11780968/2022/11/2/9c8acc18-d2d4-4cd8-9df7-190435c8de141667363452462-HIGHLANDER-Men-Green--White-Slim-Fit-Printed-Casual-Shirt-79-7.jpg",
+        "brand": "Puma",
+        "id": "35"
+    },
+    {
+        "price": "286",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10941384/2020/2/13/9447a845-892a-49f5-91ee-4de8a6589a541581587257528-Roadster-Men-Tshirts-8221581587255142-1.jpg",
+        "brand": "Campus",
+        "id": "36"
+    },
+    {
+        "price": "719",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20016126/2022/9/17/da60d16a-e18a-4aa7-b40c-ed40a56c019e1663405992808FILAMenBlueSportyJacket1.jpg",
+        "brand": "Adidas",
+        "id": "37"
+    },
+    {
+        "price": "278",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15474904/2021/9/15/10795253-fb67-494e-9a15-2aff629745eb1631698068822CampusMenWhite1.jpg",
+        "brand": "Adidas",
+        "id": "38"
+    },
+    {
+        "price": "779",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18064800/2022/6/8/3cd9099c-fdc8-4931-ba88-02c3d578baa41654690222318-Ode-by-House-of-Pataudi-Men-Kurta-Sets-9851654690221684-1.jpg",
+        "brand": "Roadster",
+        "id": "39"
+    },
+    {
+        "price": "319",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15835930/2022/8/25/009521fc-1de3-4522-8b05-78c235af43101661418436730-HIGHLANDER-Men-Grey-Tapered-Fit-Stretchable-Jeans-8661661418-1.jpg",
+        "brand": "Campus",
+        "id": "40"
+    },
+    {
+        "price": "389",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2347555/2019/12/3/77c23017-fd9d-4ad8-95f5-8722154e85ac1575361938857-HIGHLANDER-Men-White--Blue-Slim-Fit-Striped-Casual-Shirt-304-1.jpg",
+        "brand": "Wrong",
+        "id": "41"
+    },
+    {
+        "price": "522",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18221394/2022/6/13/0b383085-f957-4f54-8cf1-a7e50cd7e2ba1655116942552-Louis-Philippe-Sport-Men-Tshirts-9931655116942075-1.jpg",
+        "brand": "Campus",
+        "id": "42"
+    },
+    {
+        "price": "348",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14306068/2021/10/25/e55b0feb-4810-4a38-a5d6-528994ba1bfa1635156219604-Roadster-Men-Taupe-Bomber-Jacket-8141635156218956-1.jpg",
+        "brand": "Adidas",
+        "id": "43"
+    },
+    {
+        "price": "550",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16864512/2022/6/29/fabf9e61-ce02-4c56-ae8a-d7983f4a956c1656479483879-Puma-Men-Black-Troy-MU-Running-Shoes-3551656479483490-1.jpg",
+        "brand": "Roadster",
+        "id": "44"
+    },
+    {
+        "price": "543",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20409534/2022/10/15/b04865ea-2b75-462f-8187-9d2d2776e82c1665808483096SanwaraMenGreenStripedThreadWorkPastelsKurta6.jpg",
+        "brand": "Puma",
+        "id": "45"
+    },
+    {
+        "price": "299",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/8275705/2019/4/4/61803977-31d1-4825-bb47-c9e10e9c0a971554381371704-Roadster-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchable--1.jpg",
+        "brand": "Adidas",
+        "id": "46"
+    },
+    {
+        "price": "915",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg",
+        "brand": "Adidas",
+        "id": "47"
+    },
+    {
+        "price": "839",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1824340/2017/8/3/11501764560457-Roadster-Men-Grey-Melange-Solid-Round-Neck-T-shirt-3291501764560241-1.jpg",
+        "brand": "Roadster",
+        "id": "48"
+    },
+    {
+        "price": "4885",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14464252/2021/6/23/38b691fe-8fc1-4573-bf32-ecd41135d5021624428715405-Leather-Retail-Men-Jackets-1971624428714663-1.jpg",
+        "brand": "Wrong",
+        "id": "49"
+    },
+    {
+        "price": "299",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20153026/2022/9/24/ae9a6e13-2597-4394-b78e-127d15b625701664010034633RedTapeMenGreyMeshWalkingNon-MarkingShoes1.jpg",
+        "brand": "Puma",
+        "id": "50"
+    },
+    {
+        "price": "495",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13937344/2021/4/3/2b5b761f-a311-44df-a430-0e9a9b77a11c1617434183213SojanyaSince1958MensSilkBlendMaroonEmbroideredKurtaWhiteChur1.jpg",
+        "brand": "Adidas",
+        "id": "51"
+    },
+    {
+        "price": "202",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15068828/2021/11/18/c682d52d-7449-4a61-9d7d-5d923786b5b11637232102238RoadsterMenBeigeRegularFitSolidCasualShirtTshirtsWROGNMenTsh1.jpg",
+        "brand": "Wrong",
+        "id": "52"
+    },
+    {
+        "price": "273",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10673544/2019/9/24/6b9c7688-7ca2-4d11-9e5b-a3745ecd8f761569310358973-The-Indian-Garage-Co-Men-Shirts-8481569310357131-1.jpg",
+        "brand": "Puma",
+        "id": "53"
+    },
+    {
+        "price": "125",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20251714/2022/10/3/075e2d35-6a19-4235-a5d1-fcd66667b1a01664764159353DukeMenMulticolouredColourblockedPoloCollarAppliqueSlimFitT-1.jpg",
+        "brand": "Campus",
+        "id": "54"
+    },
+    {
+        "price": "267",
+        "title": "Jacket",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12046916/2020/11/28/359a5f29-8cfe-4604-81e6-9986653ab61d1606559203560-Roadster-Men-Jackets-2371606559201511-1.jpg",
+        "brand": "Adidas",
+        "id": "55"
+    },
+    {
+        "price": "790",
+        "title": "Shoes",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18374040/2022/8/4/8abebbe8-16cd-4749-9962-7d0cb1aeb5a21659605613503-ADIDAS-Men-Sports-Shoes-8901659605613204-1.jpg",
+        "brand": "Adidas",
+        "id": "56"
+    },
+    {
+        "price": "739",
+        "title": "Kurtas",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10308055/2019/10/22/f5065a16-cd19-48d6-bbbc-9280075de6271571720747171-Anouk-Men-Kurtas-6761571720745600-1.jpg",
+        "brand": "Roadster",
+        "id": "57"
+    },
+    {
+        "price": "257",
+        "title": "Jeans",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/7243653/2021/3/26/2f0adcb7-7ea4-4b79-a793-3613d4fe6d7d1616764533053-Roadster-Men-Blue-Skinny-Fit-Mid-Rise-Clean-Look-Stretchable-1.jpg",
+        "brand": "Adidas",
+        "id": "58"
+    },
+    {
+        "price": "239",
+        "title": "Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg",
+        "brand": "Puma",
+        "id": "59"
+    },
+    {
+        "price": "589",
+        "title": "T-Shirt",
+        "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10017085/2019/6/20/2be736d5-66cb-43a2-8208-5cea2ee1e0711561027340024-Campus-Sutra-Graphic-Print-Men-Round-Neck-Grey-T-Shirt-43715-1.jpg",
+        "brand": "Wrong",
+        "id": "60"
+    }
+],
+  "womens":[
+    {
+     "price": "943",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1845244/2022/4/20/0e0d27d1-e474-402d-99e5-4b89daf61b161650446669507RoadsterWomenWhiteSelfDesignPufferJacket1.jpg",
+     "brand": "Puma",
+     "id": "1"
+    },
+    {
+     "price": "900",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13976254/2021/6/4/73189261-764d-48be-b378-dab37fd209c91622804995721-Skechers-Women-Sports-Shoes-3291622804995238-1.jpg",
+     "brand": "Adidas",
+     "id": "2"
+    },
+    {
+     "price": "297",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18652620/2022/8/26/4d5f7043-a460-42e5-b67a-b04d9c0bc7041661503606623-KALINI-Women-Beige-Floral-Yoke-Design-Kurta-with-Trousers--W-1.jpg",
+     "brand": "Wrong",
+     "id": "3"
+    },
+    {
+     "price": "309",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13000352/2022/4/21/c083046e-9f2e-46bc-aedc-9ac56533d1001650517608723SASSAFRASWomenBluePureCottonRelaxedFitHigh-RiseCleanLookCrop1.jpg",
+     "brand": "Roadster",
+     "id": "4"
+    },
+    {
+     "price": "862",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16697006/2022/1/5/4672c4bf-8fe1-4523-91f4-ac08301573251641392147135KALINIWomenMaroonWovenDesign1.jpg",
+     "brand": "Puma",
+     "id": "5"
+    },
+    {
+     "price": "232",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/27/e19be52e-4694-4672-9dcf-49e112b16ae01611743531195-1.jpg",
+     "brand": "Campus",
+     "id": "6"
+    },
+    {
+     "price": "955",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15341524/2021/9/2/9e1ddff2-ea07-4e0c-aebb-a2600f61a6471630573211385na1.jpg",
+     "brand": "Campus",
+     "id": "7"
+    },
+    {
+     "price": "558",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19151726/2022/7/18/2b10cc54-40f8-4a8d-a569-923658b0db4a1658141338725ShuffleMaxWomensShoes1.jpg",
+     "brand": "Puma",
+     "id": "8"
+    },
+    {
+     "price": "183",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16331376/2021/12/2/b8c4f90f-683c-48d2-b8ac-19891a87c0651638428628378KurtaSets1.jpg",
+     "brand": "Campus",
+     "id": "9"
+    },
+    {
+     "price": "633",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14277582/2021/7/14/427a0d81-368e-4f47-9e33-71c5208330231626255048300-Moda-Rapido-Women-Jeans-4301626255047563-2.jpg",
+     "brand": "Roadster",
+     "id": "10"
+    },
+    {
+     "price": "383",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16697006/2022/1/5/4672c4bf-8fe1-4523-91f4-ac08301573251641392147135KALINIWomenMaroonWovenDesign1.jpg",
+     "brand": "Campus",
+     "id": "11"
+    },
+    {
+     "price": "272",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14323566/2021/8/11/e5a8a298-4261-4146-b160-1bfd3c10749f1628663590983-DressBerry-Yellow--Black-Mandarin-Collar-Puff-Sleeve-Regular-1.jpg",
+     "brand": "Wrong",
+     "id": "12"
+    },
+    {
+     "price": "189",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14455416/2021/6/23/1f94e361-1c2e-4857-a6f2-5da226432a8f1624442399043-Leather-Retail-Women-Jackets-3671624442398237-1.jpg",
+     "brand": "Campus",
+     "id": "13"
+    },
+    {
+     "price": "383",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16235302/2022/2/1/29b7e994-41ee-483b-90c7-256a9382c1f91643659191113ElPasoWomenBlackFlatBoots1.jpg",
+     "brand": "Adidas",
+     "id": "14"
+    },
+    {
+     "price": "97",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17741474/2022/4/4/3d3b3582-de6e-4514-b39d-9314d7bed3861649077991860KALINIWomenPinkAngrakhaKurtiwithTrousersWithDupatta7.jpg",
+     "brand": "Wrong",
+     "id": "15"
+    },
+    {
+     "price": "843",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19259882/2022/7/26/f7ff60de-c0df-4978-b29a-b40223d0239b1658838761314Jeans1.jpg",
+     "brand": "Campus",
+     "id": "16"
+    },
+    {
+     "price": "15",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16311678/2021/12/15/460713ca-8a86-49de-a4c7-459e5493c9a91639544776150-all-about-you-Women-Sarees-8191639544775617-3.jpg",
+     "brand": "Puma",
+     "id": "17"
+    },
+    {
+     "price": "273",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13719116/2021/3/3/90d0980a-8b39-48bd-9bf9-a67beb14a9741614753528611-Athena-Fuchsia-Pink-top-with-power-shoulder-sleeve-detail-22-1.jpg",
+     "brand": "Wrong",
+     "id": "18"
+    },
+    {
+     "price": "521",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12698836/2021/1/5/9f69397d-aab5-4b0c-9507-af3de8434b831609830114124-Roadster-Women-Jackets-51609830112055-1.jpg",
+     "brand": "Puma",
+     "id": "19"
+    },
+    {
+     "price": "480",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17450954/2022/3/9/9e20f37c-5da9-40c0-8c6b-d347402eb5811646808454812RedTapeWomenWhiteWovenDesignSneakers1.jpg",
+     "brand": "Campus",
+     "id": "20"
+    },
+    {
+     "price": "962",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19997434/2022/9/16/669015a1-9535-40b1-9d87-6203a17665761663305635133ADORROWomenBlueEthnicMotifsPrintedFlaredSleevesAnarkaliKurta1.jpg",
+     "brand": "Roadster",
+     "id": "21"
+    },
+    {
+     "price": "971",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/8963473/2022/8/30/b752b7f1-3403-4893-88c2-8b8f3b2142c21661862515266-Roadster-Women-Blue-Skinny-Fit-Mid-Rise-Low-Distress-Stretch-1.jpg",
+     "brand": "Campus",
+     "id": "22"
+    },
+    {
+     "price": "15",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16846726/2022/2/3/d81c0838-9a5f-45a4-a93f-4163e6f9548c1643867893380SatinEmbroideryWorkSaree1.jpg",
+     "brand": "Roadster",
+     "id": "23"
+    },
+    {
+     "price": "619",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12221944/2020/8/14/b9fc8ee9-ec92-4557-ab60-000e3779291e1597404329638-SASSAFRAS-Women-White-Solid-Top-8171597404327851-1.jpg",
+     "brand": "Wrong",
+     "id": "24"
+    },
+    {
+     "price": "455",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1926681/2017/11/23/11511419568669-HRX-by-Hrithik-Roshan-Women-Jackets-3171511419568505-1.jpg",
+     "brand": "Adidas",
+     "id": "25"
+    },
+    {
+     "price": "619",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19456484/2022/9/6/b12c1bd9-0b20-4f1f-be0c-280d0ae38ee51662465876809WaistcoatMangoKidsBoysSweatersMangoKidsBoysSweatshirtsMangoK1.jpg",
+     "brand": "Adidas",
+     "id": "26"
+    },
+    {
+     "price": "559",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14709966/2021/7/10/d2407657-1f04-4d13-9f52-9e134050489b1625905793495-Nayo-Women-Red-Ethnic-Motifs-Printed-Empire-Pure-Cotton-Kurt-1.jpg",
+     "brand": "Roadster",
+     "id": "27"
+    },
+    {
+     "price": "414",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/9552603/2022/5/20/a5b42476-d64a-49a4-a95c-54853b8148981653026711165-SASSAFRAS-Women-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchab-4.jpg",
+     "brand": "Wrong",
+     "id": "28"
+    },
+    {
+     "price": "944",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15071236/2021/8/9/3f7066d4-4b76-4774-9457-303e1868692a1628499657874MiteraWomenGreenEmbellished1.jpg",
+     "brand": "Adidas",
+     "id": "29"
+    },
+    {
+     "price": "758",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20132030/2022/9/22/29cc1474-518e-46c7-a100-640df8b2d6951663856287630CODEbyLifestylePurpleTopsNylon1.jpg",
+     "brand": "Puma",
+     "id": "30"
+    },
+    {
+     "price": "252",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14017342/2021/4/16/d36879a1-2c54-460e-8478-e2d755d67a9d1618575119929-Leather-Retail-Women-Jackets-1011618575116369-1.jpg",
+     "brand": "Wrong",
+     "id": "31"
+    },
+    {
+     "price": "540",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12829500/2022/6/13/a279f4cc-9a2a-4d2b-a67e-b1561512b7ee1655121760492-Roadster-Women-Off-White-Solid-Sneakers-5581655121760018-1.jpg",
+     "brand": "Roadster",
+     "id": "32"
+    },
+    {
+     "price": "536",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18709124/2022/6/11/4fc5a841-d80c-4e7b-9a7b-4e17134b4c401654948355691KALINIWomenBlueStraightPrintedKurtawithTrouser7.jpg",
+     "brand": "Roadster",
+     "id": "33"
+    },
+    {
+     "price": "600",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4451395/2022/11/3/48ecb7ca-d3e3-463e-9acb-b4d6b0d9c0401667477909423-Roadster-Women-Black-Skinny-Fit-Mid-Rise-Clean-Look-Stretcha-1.jpg",
+     "brand": "Campus",
+     "id": "34"
+    },
+    {
+     "price": "488",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16630964/2022/1/18/cea4b9ff-673f-4a28-80de-0d6ab828b3671642504766835-Vastranand-Woven-Designe-Paithani-Saree-2601642504765854-1.jpg",
+     "brand": "Puma",
+     "id": "35"
+    },
+    {
+     "price": "286",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11157052/2021/9/15/15ebc0f3-06b4-43dd-9eb8-759ea3c30d871631705427380-QUIERO-Women-Black--White-Embroidered-Top-3041631705426967-1.jpg",
+     "brand": "Campus",
+     "id": "36"
+    },
+    {
+     "price": "719",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/7/21/cc7b2d9c-07f5-4df0-bf4d-ce97fc876f6f1595286015950-1.jpg",
+     "brand": "Adidas",
+     "id": "37"
+    },
+    {
+     "price": "278",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19781584/2022/9/3/fe706408-0ad4-4207-b40d-3ac3680474aa1662184982679RedTapeWomenPinkMeshWalkingNon-MarkingShoes1.jpg",
+     "brand": "Adidas",
+     "id": "38"
+    },
+    {
+     "price": "77",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14399812/2021/6/11/61ac3eaa-c553-4230-9458-28aa7bd088301623391467623-Anouk-Women-Kurta-Sets-961623391466905-11.jpg",
+     "brand": "Roadster",
+     "id": "39"
+    },
+    {
+     "price": "319",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2018/12/4/c0fa8606-a244-48e0-a360-401956a9cbba1543924444628-1.jpg",
+     "brand": "Campus",
+     "id": "40"
+    },
+    {
+     "price": "389",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20282042/2022/10/5/b1ab4457-6002-4236-aeb2-4035f562cc4e1664989113769BlackColouredSequinedEmbroideredGeorgetteSaree1.jpg",
+     "brand": "Wrong",
+     "id": "41"
+    },
+    {
+     "price": "522",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15019102/2021/8/20/13eb4c41-2195-43bf-b719-c8df7a449a191629459716033-Jockey-Women-Black-Ribbed-Thermal-Top-2503-0105-631629459715-1.jpg",
+     "brand": "Campus",
+     "id": "42"
+    },
+    {
+     "price": "348",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/5492286/2019/9/30/7095cb8d-c448-402a-9979-cc9879064b4a1569841689006-Roadster-Women-Navy-Solid-Padded-Jacket-8201569841687608-1.jpg",
+     "brand": "Adidas",
+     "id": "43"
+    },
+    {
+     "price": "550",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12657184/2022/6/8/c71ae0b9-6ab3-4822-b6c8-92e4890f8e2e1654687933841HRXbyHrithikRoshanWomenWhiteTrainingShoes1.jpg",
+     "brand": "Roadster",
+     "id": "44"
+    },
+    {
+     "price": "543",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15258048/2021/9/6/a5a4b340-d0b2-44c2-bf0d-7d4733a6413f1630920975833-Libas-Women-Kurta-Sets-1441630920974980-1.jpg",
+     "brand": "Puma",
+     "id": "45"
+    },
+    {
+     "price": "299",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19702640/2022/10/21/f8038194-bdba-4377-872d-12ab2b869d8b1666353847343-ADBUCKS-Women-Blue-Straight-Fit-High-Rise-Stretchable-Jeans--1.jpg",
+     "brand": "Adidas",
+     "id": "46"
+    },
+    {
+     "price": "915",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14975358/2021/7/29/9e1484a0-92f8-4871-9b98-fc9f389406691627570339977KALINIWomenBlackPrinted1.jpg",
+     "brand": "Adidas",
+     "id": "47"
+    },
+    {
+     "price": "83",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19905576/2022/9/21/25903dab-f229-4571-8b36-acfc7518b2341663755186598-Women-Green-Printed-A-line-Top-8221663755186065-1.jpg",
+     "brand": "Roadster",
+     "id": "48"
+    },
+    {
+     "price": "45",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20303982/2022/10/7/34727cda-38ea-48f6-9bc3-973e93fe2b001665124189528StyliWomenWhiteColourblockedBomberwithPatchworkJacket1.jpg",
+     "brand": "Wrong",
+     "id": "49"
+    },
+    {
+     "price": "29",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17661694/2022/3/29/4cf5e8f5-870b-4542-815b-ee8df75ca45f1648547981312ASIANWomenMauveWovenDesignSlip-OnSneakers1.jpg",
+     "brand": "Puma",
+     "id": "50"
+    },
+    {
+     "price": "495",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14951330/2022/2/16/e6b90907-a613-45e1-9b2e-988caaba36581645010770505-Ahalyaa-Women-Beige-Floral-Printed-Regular-Gotta-Patti-Kurta-1.jpg",
+     "brand": "Adidas",
+     "id": "51"
+    },
+    {
+     "price": "202",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13000414/2020/12/3/4b6ac67e-3089-450c-83e4-f0362b930af91606971728255-SASSAFRAS-Women-Jeans-7971606971722019-1.jpg",
+     "brand": "Wrong",
+     "id": "52"
+    },
+    {
+     "price": "273",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19987162/2022/9/15/0fcea578-4abc-4d3d-a158-b8c4a0844a191663182482995PrathamBluePurpleEmbellishedSequinnedPureGeorgetteSaree1.jpg",
+     "brand": "Puma",
+     "id": "53"
+    },
+    {
+     "price": "125",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17669442/2022/4/8/68782273-debf-4ac3-85b4-1ab9cdd9e7411649397188119-HERENOW-Women-Tops-2331649397187657-1.jpg",
+     "brand": "Campus",
+     "id": "54"
+    },
+    {
+     "price": "267",
+     "title": "Jacket",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/9/12/477a69ec-9dc9-4f86-a770-28b1ce93c9bc1568227255410-1.jpg",
+     "brand": "Adidas",
+     "id": "55"
+    },
+    {
+     "price": "70",
+     "title": "Shoes",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20014166/2022/9/17/94793c15-1302-4d13-bc89-6cebf66d53751663405317961ElPasoWomenBlueTexturedSlip-OnSneakers1.jpg",
+     "brand": "Adidas",
+     "id": "56"
+    },
+    {
+     "price": "739",
+     "title": "Kurtas",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11056154/2019/12/5/30b0017d-7e72-4d40-9633-ef78d01719741575541717470-AHIKA-Women-Black--Green-Printed-Straight-Kurta-990157554171-1.jpg",
+     "brand": "Roadster",
+     "id": "57"
+    },
+    {
+     "price": "257",
+     "title": "Jeans",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/7744523/2018/11/6/acb0ec0f-036d-4a44-b8fc-2165977d1c881541499459066-Heart-of-Darkness-Skinny-Jeans-1501541499458878-1.jpg",
+     "brand": "Adidas",
+     "id": "58"
+    },
+    {
+     "price": "23",
+     "title": "Saree",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18205204/2022/5/9/123454e5-d2fc-4c3b-8789-283bccb7be751652100736749InddusWomenYellowSarees1.jpg",
+     "brand": "Puma",
+     "id": "59"
+    },
+    {
+     "price": "589",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12222036/2020/10/6/d7ae3065-98d4-42d0-b244-d2b18802ff101601959656577-SASSAFRAS-Women-Black-Solid-High-Neck-Cropped-Top-4441601959-1.jpg",
+     "brand": "Wrong",
+     "id": "60"
+    }
+   ],
+  "kids": [
+    {
+     "price": "943",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17170628/2022/2/16/1ba133f6-2c51-4e20-adc5-b7d4d3bcb2af1645003544029KID1BoysBlueLayeredPureCottonKurtawithDhotiPants1.jpg",
+     "brand": "For Boys",
+     "id": "1"
+    },
+    {
+     "price": "900",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/2/26/07837259-ff86-4e2a-b4f5-6da6d2b92d401614340366668-1.jpg",
+     "brand": "For Girls",
+     "id": "2"
+    },
+    {
+     "price": "297",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16399906/2021/12/7/7b37ca01-ca51-4838-a007-7673b2471ecf1638883804381HopscotchBoysBlue1.jpg",
+     "brand": "For Boys",
+     "id": "3"
+    },
+    {
+     "price": "309",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20412130/2022/10/15/f3b2909f-ad6b-4acf-b45c-828460c823691665802430821Printedjerseytop1.jpg",
+     "brand": "For Girls",
+     "id": "4"
+    },
+    {
+     "price": "862",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19662810/2022/8/25/62f4ec2a-cdf3-4cdc-a35c-3144b02d736d1661432266938ATUNBoysShirt1.jpg",
+     "brand": "For Boys",
+     "id": "5"
+    },
+    {
+     "price": "232",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17786148/2022/7/2/8dfed1c9-4473-4685-a854-449375e663421656746629347BitiyabyBhamaGirlsBlueFloralPrintedPleatedKurtawithSkirt7.jpg",
+     "brand": "For Girls",
+     "id": "6"
+    },
+    {
+     "price": "955",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16265230/2021/11/27/446cb0d6-e1aa-45b0-acb7-cdaa31cc3c5e1637992151710TiberTaberBoysYellowPrintedRegularPureCottonKurtawithDhotiPa1.jpg",
+     "brand": "For Boys",
+     "id": "7"
+    },
+    {
+     "price": "558",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20648902/2022/11/7/fe8923d1-de07-4de3-a879-ab68aff56d3d1667810060031CherryCrumbleUnisexKidsCream-ColouredBrownPrintedNightsuit1.jpg",
+     "brand": "For Girls",
+     "id": "8"
+    },
+    {
+     "price": "183",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20394226/2022/10/14/7b9fe69b-f029-4ad8-aa0a-2d58364942301665729182359BUMZEEBoysMaroonWhitePrintedShirtwithTrousers1.jpg",
+     "brand": "For Boys",
+     "id": "9"
+    },
+    {
+     "price": "633",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20414074/2022/10/15/c2e8c5bd-c091-4444-bf14-e0d4d02f91691665822733811DeMozaKids-GirlsTopPrintedCottonAdventurine1.jpg",
+     "brand": "For Girls",
+     "id": "10"
+    },
+    {
+     "price": "383",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20294284/2022/10/6/d9dbc0b6-e135-4229-baac-7151153559f61665048109015JuniorsbyLifestyleBeigePrintedCottonShirts1.jpg",
+     "brand": "For Boys",
+     "id": "11"
+    },
+    {
+     "price": "272",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15396092/2021/9/7/415faca5-7b3c-41c5-8e95-11c4f411f8f81631020548440StyloBugGirlsBlueFloralEmbroideredTieredKurtiwithShararaWith1.jpg",
+     "brand": "For Girls",
+     "id": "12"
+    },
+    {
+     "price": "189",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/9/20/108ebab1-4dd9-4b31-92bd-d15c1eaf4a851600551515102-1.jpg",
+     "brand": "For Boys",
+     "id": "13"
+    },
+    {
+     "price": "383",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10684874/2019/10/5/9344ec9b-712b-4f9f-a243-26d1239d94171570256414558-Cherry-Crumble-Cosy-Applique-Nightsuit-4821570256413684-1.jpg",
+     "brand": "For Girls",
+     "id": "14"
+    },
+    {
+     "price": "97",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20367732/2022/10/12/9e1ac13a-586e-444a-8905-f2e1fe21a7751665562106772MarksSpencerBoysGreenNavyBluePrintedT-shirtwithPyjamas1.jpg",
+     "brand": "For Boys",
+     "id": "15"
+    },
+    {
+     "price": "843",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20412150/2022/10/15/49635bca-05ef-484d-8dbd-cb2dc74c524f1665806387193Printedjerseytop1.jpg",
+     "brand": "For Girls",
+     "id": "16"
+    },
+    {
+     "price": "15",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18633960/2022/6/6/a3a91e0f-405e-4027-88a0-e059fdcb0d781654495023975HERENOWBoysTealSlimFitCasualShirt1.jpg",
+     "brand": "For Boys",
+     "id": "17"
+    },
+    {
+     "price": "273",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14944012/2021/7/26/624b4fff-4e6a-454f-bd6e-f1c4d3db4fb71627317429160pspeachesGirlsGreenBandhaniEmbroideredPanelledPureCottonTopw1.jpg",
+     "brand": "For Girls",
+     "id": "18"
+    },
+    {
+     "price": "521",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16278718/2021/11/27/ffe1c615-5051-41b9-ab6d-a8b86defbb721638009551823VastramayBoysTurquoiseDigitalPrintedJodhpuri1.jpg",
+     "brand": "For Boys",
+     "id": "19"
+    },
+    {
+     "price": "480",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17746578/2022/4/5/c21f1b62-3b56-41e1-84eb-214fc022b3a11649148621816AnthriloGirlsYellowNightsuits1.jpg",
+     "brand": "For Girls",
+     "id": "20"
+    },
+    {
+     "price": "962",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15019064/2021/8/4/01435a83-2ae8-4f75-bf83-87751b6c10fe1628076836092BABYGO1.jpg",
+     "brand": "For Boys",
+     "id": "21"
+    },
+    {
+     "price": "971",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20302452/2022/10/7/29d3b8a4-8cc1-44a4-9011-0b8aa83247ec1665082594060Ed-a-MammaSustainableTie-dyeoffshouldertopForgirls-Lilac1.jpg",
+     "brand": "For Girls",
+     "id": "22"
+    },
+    {
+     "price": "15",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20535176/2022/10/28/82faa2cf-3dad-4d8e-abdc-26263ac70af31666955784685BoyscasualShirt1.jpg",
+     "brand": "For Boys",
+     "id": "23"
+    },
+    {
+     "price": "619",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20217892/2022/9/29/660757b9-b5c9-4b41-b1d5-359d403b5c821664455701538ATUNGirlsGreyFloralEmbroideredPanelledKurtawithSharara1.jpg",
+     "brand": "For Girls",
+     "id": "24"
+    },
+    {
+     "price": "455",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/8445083/2022/4/18/9530c347-5229-4a7d-a97e-4c18aa7feb781650284977694TiberTaberBoysWhitePrintedPanchakattu1.jpg",
+     "brand": "For Boys",
+     "id": "25"
+    },
+    {
+     "price": "619",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19452568/2022/8/9/27386914-469a-4a07-a363-d2056bb8d10e1660051366201LazySharkGirlsNavyBluePinkPrintedNightsuit1.jpg",
+     "brand": "For Girls",
+     "id": "26"
+    },
+    {
+     "price": "559",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19693918/2022/8/27/1ba96daf-fa24-4848-b491-a8b18371f2eb16615826102862-pieceprintedset1.jpg",
+     "brand": "For Boys",
+     "id": "27"
+    },
+    {
+     "price": "414",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20302454/2022/10/6/02c81ce8-1d8a-46ee-9b0e-5ab55f14978e1665079567124Ed-a-MammaSustainableEmbroideredtopForgirls-Pink1.jpg",
+     "brand": "For Girls",
+     "id": "28"
+    },
+    {
+     "price": "944",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20535172/2022/10/28/909ed69e-3b58-45e9-8f62-5985c18fc90e1666955786385BoyscasualShirt1.jpg",
+     "brand": "For Boys",
+     "id": "29"
+    },
+    {
+     "price": "758",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14993534/2021/12/23/f558ef69-cdfc-4d08-8523-86c4cbed3e061640264353416-Sangria-Girls-Magenta--Golden-Paisley-Foil-Print-Kurta-with--1.jpg",
+     "brand": "For Girls",
+     "id": "30"
+    },
+    {
+     "price": "252",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20217066/2022/9/29/7c1e89b8-5b0e-4691-a68f-5bfef7ec6bc31664446728921KurtaSets1.jpg",
+     "brand": "For Boys",
+     "id": "31"
+    },
+    {
+     "price": "540",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/14/3c217a53-3aa3-4fef-936a-84d465359f141610616879045-1.jpg",
+     "brand": "For Girls",
+     "id": "32"
+    },
+    {
+     "price": "536",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20083750/2022/9/20/275e6141-c152-4591-be3d-e4862a4d1c221663652132838Dungarees1.jpg",
+     "brand": "For Boys",
+     "id": "33"
+    },
+    {
+     "price": "600",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20302384/2022/10/6/adbc46a0-c101-4c37-a13d-da28d62220291665072077535Ed-a-MammaSustainableEmbroideredtopForgirls-Lime1.jpg",
+     "brand": "For Girls",
+     "id": "34"
+    },
+    {
+     "price": "488",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20242200/2022/10/1/1be09201-cc38-47a2-b913-aafe621a048b1664601367738Cottonshirt1.jpg",
+     "brand": "For Boys",
+     "id": "35"
+    },
+    {
+     "price": "286",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19831736/2022/9/8/60fabb65-7147-4c97-8de8-6dc9f14315d21662632699994pspeachesGirlsPeach-ColouredFloralPleatedKurtiwithShararaWit1.jpg",
+     "brand": "For Girls",
+     "id": "36"
+    },
+    {
+     "price": "719",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20145326/2022/9/23/d9a8f08e-9341-4b7e-bfe1-f2a4c92e61f71663929899523KurtaSets1.jpg",
+     "brand": "For Boys",
+     "id": "37"
+    },
+    {
+     "price": "278",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20048368/2022/9/18/0e5b9eaf-bb7f-4bc2-bd7b-be9bce147e3e1663481321520KnittingDoodlesUnisexKidsGreenBrownPrintedNightsuit1.jpg",
+     "brand": "For Girls",
+     "id": "38"
+    },
+    {
+     "price": "77",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16334294/2021/12/2/0599d8c8-0fb7-4e5c-b069-e25db9adb4221638417231887ClothingSet1.jpg",
+     "brand": "For Boys",
+     "id": "39"
+    },
+    {
+     "price": "319",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20014236/2022/9/16/4e08d35c-01fe-4a39-b22a-8ecae1bafa4c1663300119562V-MartRedFloralPrintPeplumTop1.jpg",
+     "brand": "For Girls",
+     "id": "40"
+    },
+    {
+     "price": "389",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19662806/2022/8/25/c76e1cfa-1bff-486a-aa55-fdae796cd70f1661432199225ATUNBoysShirt1.jpg",
+     "brand": "For Boys",
+     "id": "41"
+    },
+    {
+     "price": "522",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19582558/2022/8/22/7f4e61b5-3f14-4b4b-9e55-fb9df34722861661153905487ATUNGirlsPurpleAngrakhaKurtiwithTrousers1.jpg",
+     "brand": "For Girls",
+     "id": "42"
+    },
+    {
+     "price": "348",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/5/19/1ac9b514-1978-4a6a-8390-2e7c320336701558212667413-1.jpg",
+     "brand": "For Boys",
+     "id": "43"
+    },
+    {
+     "price": "550",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11310844/2022/6/15/41454e38-f47e-4c4f-b0d2-dbd649cf1a9b1655313804328CherryCrumbleKidsRedGreenCheckedNightSuit1.jpg",
+     "brand": "For Girls",
+     "id": "44"
+    },
+    {
+     "price": "543",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17474520/2022/11/3/44fd8039-dbe2-4d6c-beb3-3b65cef653ec1667472062609HByHamleysBoysMulticolouredAnimalPrintedPureCottonT-shirtwit1.jpg",
+     "brand": "For Boys",
+     "id": "45"
+    },
+    {
+     "price": "299",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20299052/2022/10/6/beff8888-ec6f-4389-b7f3-e3abdf524c541665064092583FameForeverbyLifestyleYellowTopCotton1.jpg",
+     "brand": "For Girls",
+     "id": "46"
+    },
+    {
+     "price": "915",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14672750/2021/7/23/fc7be710-cb99-43f1-b733-ba5d3897b4651627032185643-HERENOW-Boys-Shirts-651627032185315-1.jpg",
+     "brand": "For Boys",
+     "id": "47"
+    },
+    {
+     "price": "83",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12857244/2021/2/17/14955486-1121-44ff-8054-a71d20fd346f1613545333050-Sangria-Girls-Clothing-Set-2401613545331984-1.jpg",
+     "brand": "For Girls",
+     "id": "48"
+    },
+    {
+     "price": "45",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20294550/2022/10/6/5c931178-4875-4c95-b4e1-c8e978e3c7f61665055723651MelangebyLifestyleYellowPrintedPureCottonWaistcoat1.jpg",
+     "brand": "For Boys",
+     "id": "49"
+    },
+    {
+     "price": "29",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504976/2022/3/12/e1ee2de5-bd83-47ea-9208-5e778495224b1647079769349pspeachesGirlsBlueNightsuits1.jpg",
+     "brand": "For Girls",
+     "id": "50"
+    },
+    {
+     "price": "495",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18609718/2022/6/4/11c186d0-ca6b-4360-8533-092b360e01a71654327668681FOURFOLDSBoysOliveClothingSet1.jpg",
+     "brand": "For Boys",
+     "id": "51"
+    },
+    {
+     "price": "202",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18302434/2022/5/17/20a1d178-dacf-4b09-9197-12f9098620ea1652780107657Tie-hemtop1.jpg",
+     "brand": "For Girls",
+     "id": "52"
+    },
+    {
+     "price": "273",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20406158/2022/10/14/4fa1162a-955d-4f31-94cc-1247ae235f051665760961002Ed-A-MammaSustainableFullSleevesAllOverPrintedShirtWithBandC1.jpg",
+     "brand": "For Boys",
+     "id": "53"
+    },
+    {
+     "price": "125",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19648122/2022/8/25/c87ee6b0-aee5-4cd0-900b-c200115d48781661419352325ATUNGirlsCream-ColouredFloralEmbroideredPanelledKurtawithSki1.jpg",
+     "brand": "For Girls",
+     "id": "54"
+    },
+    {
+     "price": "267",
+     "title": "Ethnic wear",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/7374451/2021/5/11/5152b5e8-35b2-4388-b8fb-d0d24fd0e8911620725509083-JBN-Creation-Boys-Navy-Blue--Maroon-Solid-Kurta-with-Dhoti-P-1.jpg",
+     "brand": "For Boys",
+     "id": "55"
+    },
+    {
+     "price": "70",
+     "title": "Nightdress",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14601220/2022/2/25/dd00a540-3188-4d37-ad44-ac3a9876f8d41645783011157ZeyoGirlsNavyBlueNightsuit1.jpg",
+     "brand": "For Girls",
+     "id": "56"
+    },
+    {
+     "price": "739",
+     "title": "Clothing Set",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20226562/2022/9/30/57fd56e8-bda6-4dd5-8863-75c3b0cbd6f61664504762576ClothingSet1.jpg",
+     "brand": "For Boys",
+     "id": "57"
+    },
+    {
+     "price": "257",
+     "title": "Top",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16108374/2022/8/17/c69cad09-e3ad-4898-99c9-e74e5b3876cf1660739142678CutiekinsPeachRedFloralPrintedRufflesCrepeShirtStyleTop1.jpg",
+     "brand": "For Girls",
+     "id": "58"
+    },
+    {
+     "price": "23",
+     "title": "Shirt",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19999398/2022/9/15/34af594a-b408-4675-a59c-d99171d3a1281663235040529KATEOSCARBoysBlueStandardCasualShirt1.jpg",
+     "brand": "For Boys",
+     "id": "59"
+    },
+    {
+     "price": "589",
+     "title": "Kurta",
+     "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19946016/2022/9/21/ac0d173b-854b-4f5c-8d10-cf73815968881663763291204-Frock-style-Cotton-fabric-Orange-color-Floral-printed-Kurta--1.jpg",
+     "brand": "For Girls",
+     "id": "60"
+    }
+   ]
+}
