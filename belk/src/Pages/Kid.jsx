@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Image, Center, Select, Checkbox,RadioGroup,Radio,Stack } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Center, Select, Checkbox,RadioGroup,Radio,Stack, Accordion } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import axios from "axios";
@@ -13,26 +13,97 @@ const Kid = () => {
 
     const [data, setData] = useState([]);
     const [page, setPage] = useState(1);
+    const [order,setOrder] = useState("");
+    const[pagelimit,setPageLimit] = useState(0);
+    const [category,setCatagory] = useState("");
+    const [product,setProduct] = useState("");
+    // console.log(category);
+
+
+    // console.log(order)
+
+
+    // if(order){
+    //     console.log("ankush")
+    // }
+
 
     const getData = (page) => {
-        return axios(`http://localhost:8080/kids?_page=${page}&_limit=12`)
+         axios(`http://localhost:8080/kids?_page=${page}&_limit=12`)
             .then((res) => {
                 setData(res.data)
+                setPageLimit(res.headers["x-total-count"])
             });
     }
 
     useEffect(() => {
         getData(page);
-    }, [page]);
+        handelCatagory(category);
+        sortLow(order)
+    }, [page,category,order]);
 
-    const handleCart = () => {
-        alert("Item Added to the cart Successfully");
+    const handleCart = (e) => {
+       
     }
 
-    const sortLow = () =>{
-        console.log("anklushklgh")
+
+    // sort by price
+
+
+    const sortLow =async (order) =>{
+
+        if(order){
+
+            // let res = await axios(`http://localhost:8080/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
+            //    setData(res.data)
+            //    setPageLimit(res.headers["x-total-count"])
+
+            axios.get(`http://localhost:8080/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
+            .then((res)=>{
+                setData(res.data);
+                console.log(res)
+                setPageLimit(res.headers["x-total-count"])
+                console.log(pagelimit)
+            })
+           }else{
+            let res = await axios(`http://localhost:8080/kids?_page=${page}&_limit=12`)
+            setData(res.data)
+            setPageLimit(res.headers["x-total-count"])
+    }
+          
+
     }
 
+
+
+
+    // filter by category
+
+
+
+    const handelCatagory = (category) =>{
+        if(category){
+            console.log(category)
+            axios.get(`http://localhost:8080/kids?brand=${category}&_page=${page}&_limit=12`)
+            .then((res)=>{
+               console.log(res);
+               setData(res.data);
+               setPageLimit(res.headers["x-total-count"])
+            })
+        }else{
+            axios.get(`http://localhost:8080/kids?_page=${page}&_limit=12`)
+            .then((res)=>{
+            //    console.log(res.data);
+            //    console.log(res.data.length)
+               setData(res.data);
+               setPageLimit(res.headers["x-total-count"])
+
+            })
+        }
+         
+
+    }
+    // Accordion
 
 
     return <>
@@ -53,18 +124,36 @@ const Kid = () => {
 
             <Flex p={5} m="auto" mt={120} mb={50} w="80%" boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" bg="white" h="auto">
                 <Box w="20%" h="100%" pr={5}>
+                    {/* <Button onClick={()=>setOrder("asc")}>LTH</Button>
+                    <Button onClick={()=>setOrder("desc")}>HTL</Button> */}
 
-                    <Select placeholder='Sort By Price' border="1px solid grey"  onChange={sortLow} mb={5} mt={50}>
-                        <option value='option1'>Low To High</option>
-                        <option value='option2'>High To Low</option>
+                    <Select border="1px solid grey"  onChange={(e)=>setOrder(e.target.value)} mb={5} mt={50}>
+                        <option value=''>Sort By Price</option>
+                        <option value='asc'>Low To High</option>
+                        <option value='desc'>High To Low</option>
                     </Select>
+
+
+
                     <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
-                        <Center fontSize={20} fontWeight="bold" color="#4299E1" py={15}>Filter By Brand</Center>
+                        <Center fontSize={20} fontWeight="bold" color="#4299E1" py={15}>Filter By Category</Center>
                         <Box textAlign="start" pl={10}>
-                            <Checkbox >For Boys</Checkbox><br /><br />
-                            <Checkbox >For Girls</Checkbox><br /><br />
+                            <RadioGroup>
+                        <Stack spacing={5} direction='column'>
+                            <Radio colorScheme='blue' value='1' onChange={()=>setCatagory("")}>
+                                All Items
+                                </Radio>
+                                <Radio colorScheme='blue' value='2' onChange={()=>setCatagory("Forboy")}>
+                                For Boys
+                                </Radio>
+                                <Radio colorScheme='blue' value='3' onChange={()=>setCatagory("Forgirl")}>
+                                For Girls
+                                </Radio>
+                            </Stack>
+                            </RadioGroup>
                         </Box>
                     </Box>
+
                     <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" mt={25}>
                         <Center fontSize={20} fontWeight="bold" color="#4299E1" py={15}>Filter By Product</Center>
                         <RadioGroup textAlign="start" pl={10}>
@@ -128,7 +217,7 @@ const Kid = () => {
             <Box>
                 <Button color="white" bg="#4299E1" border="1px solid white" borderRadius="5px" isDisabled={page === 1} onClick={() => setPage(page - 1)}>Previous</Button>
                 <Button>{page}</Button>
-                <Button color="white" bg="#4299E1" border="1px solid white" borderRadius="5px" isDisabled={page == 5} onClick={() => setPage(page + 1)}>Next</Button>
+                <Button color="white" bg="#4299E1" border="1px solid white" borderRadius="5px" isDisabled={page == Math.ceil(pagelimit/12)} onClick={() => setPage(page + 1)}>Next</Button>
             </Box>
 
         </Box>
