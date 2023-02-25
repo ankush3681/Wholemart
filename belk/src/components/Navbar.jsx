@@ -57,7 +57,7 @@ const Navbar = () =>{
      </InputGroup>
      </Box>
      <Flex w="35%" justifyContent="space-evenly" alignItems="center" color="black">
-        <NavLink className= "link" to="/">Belk Reward</NavLink>
+        <NavLink className= "link"  to="/">   Belk Reward</NavLink>
         <NavLink className= "link" to="/">Coupan</NavLink>
        {isAuth ? <Button fontSize={15} color="grey" onClick={logout_function}>Logout</Button> : <NavLink className= "link" to="/login">Login</NavLink>} 
         
@@ -80,7 +80,7 @@ const Navbar = () =>{
            return  isActive ? {color:"red" }: {color:"none"} 
         }}
         
-        className="link" to={item.to}>{item.title}</NavLink>
+        className="link"  to={item.to}>{item.title}</NavLink>
     ))}
 </Flex>
 <Spacer/>
