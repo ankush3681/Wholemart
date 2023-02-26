@@ -1,4 +1,4 @@
-import { Box,Input,Button ,Center } from "@chakra-ui/react";
+import { Box,Input,Button ,Center,useToast } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import axios from "axios";
@@ -10,8 +10,9 @@ import login_logo from "./login_logo.jpg"
 const Login =({children}) =>{
  const {login,isAuth} = useContext(AuthContext);
 
- const [email,setEmail] = useState("eve.holt@reqres.in");
- const [password,setPassword] = useState("cityslicka");
+ const [email,setEmail] = useState("");
+ const [password,setPassword] = useState("");
+ const toast = useToast();
 
  const initState={
     email,
@@ -26,16 +27,31 @@ const navigate = useNavigate();
       }).then((res)=>{
          setEmail("");
          setPassword("");
-        
-         alert("Login Successful")
+         toast({
+            title: 'Login Success.',
+            description: "You've been login to your account.",
+            status: 'success',
+            position:"top",
+            duration: 3000,
+            isClosable: true,
+          })
+         // alert("Login Successful")
          if(res.data.token){
            login();
+          
            navigate("/")
          }     
        })
 
       .catch((err)=>{
-         alert("Wrong Credentials")
+         toast({
+            title: 'Wrong Credentials.',
+            description: "Please Try Again to Login.",
+            status: 'error',
+            position:"top",
+            duration: 3000,
+            isClosable: true,
+          })
       })
       
 

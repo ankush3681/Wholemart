@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Navbar from '../components/Navbar'
-import { Box,Input,Button,Center,Flex } from '@chakra-ui/react';
+import { Box,Input,Button,Center,Flex,useToast } from '@chakra-ui/react';
 import axios from 'axios';
 import { useContext } from 'react';
 import {AuthContext} from '../context/AuthContextProvider';
@@ -15,6 +15,7 @@ const Signin = ({children}) => {
     const [name,setName] = useState("");
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
+    const toast = useToast();
 
     const navigate = useNavigate();
 
@@ -30,12 +31,26 @@ const Signin = ({children}) => {
         data:initState
       }).then((res)=>{
         nameOfUser(name);
-        alert(`Hello ${name}, Account Created Successfully.`);
+        toast({
+          title: 'Account created.',
+          description: ` Hello ${name} We've created your account for you.`,
+          status: 'success',
+          position:"top",
+          duration: 3000,
+          isClosable: true,
+        })
        if(res.data.token){
           navigate("/login")
        }
       }).catch(()=>{
-        alert("Please provide valid details")
+        toast({
+          title: 'Email Not Found',
+          description: "Please Try Again to Create your Account",
+          status: 'error',
+          position:"top",
+          duration: 3000,
+          isClosable: true,
+        })
       })
     }
 

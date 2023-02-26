@@ -23,21 +23,21 @@ import KidSingle from "../Pages/KidSingle";
 const AllRoute = () =>{
     return <Routes>
     <Route path="/*" element={<Home/>}></Route>
-    <Route path="/beauty" element={<Beauty/>}></Route>
-    <Route path="/brand" element={<Brand/>}></Route>
-    <Route path="/gifts" element={<Gifts/>}></Route>
-    <Route path="/handbag" element={<Handbag/>}></Route>
-    <Route path="/jewelry" element={<Jewelry/>}></Route>
+    <Route element={<Beauty/>}></Route>
+    <Route element={<Brand/>}></Route>
+    <Route element={<Gifts/>}></Route>
+    <Route element={<Handbag/>}></Route>
+    <Route element={<Jewelry/>}></Route>
     <Route path="/kid" element={<Kid/>}></Route>
     <Route path="/men" element={
     <PrivateRoute>
     <Men/>
     </PrivateRoute>
     }></Route>
-    <Route path="/shoes" element={<Shoes/>}></Route>
+    <Route element={<Shoes/>}></Route>
     <Route path="/women" element={<Women/>}></Route>
-    <Route path="/bed&bath" element={<BedBath/>}></Route>
-    <Route path="/clearance" element={<Clearance/>}></Route>
+    <Route  element={<BedBath/>}></Route>
+    <Route  element={<Clearance/>}></Route>
     <Route path="/cart" element={
     <PrivateRoute>
     <Cart/>
