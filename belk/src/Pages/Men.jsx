@@ -69,40 +69,54 @@ const Men = () => {
                         <option value='option1'>Low To High</option>
                         <option value='option2'>High To Low</option>
                     </Select>
-                    <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
+                    <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" mt={25} pb={10}> 
                         <Center fontSize={20} fontWeight="bold" color="#4299E1" py={15}>Filter By Brand</Center>
-                        <Box textAlign="start" pl={10}>
-                            <Checkbox >Puma</Checkbox><br /><br />
-                            <Checkbox >Campus</Checkbox><br /><br />
-                            <Checkbox >Addidas</Checkbox><br /><br />
-                            <Checkbox >Nike</Checkbox><br /><br />
-                            <Checkbox >Roadster</Checkbox><br /><br />
-                            <Checkbox >Wrong</Checkbox><br /><br />
-                        </Box>
+                        <RadioGroup textAlign="start" pl={10}>
+                            <Stack spacing={5} direction='column'>
+                            <Radio colorScheme='blue' value='' defaultChecked>
+                                    All Products
+                                </Radio>                                
+                                <Radio colorScheme='blue' value='Puma'>
+                                Puma
+                                </Radio>
+                                <Radio colorScheme='blue' value='Campus'>
+                                Campus
+                                </Radio>
+                                <Radio colorScheme='blue' value='Adidas'>
+                                Addidas
+                                </Radio>
+                                <Radio colorScheme='blue' value='Roadster'>
+                                Roadster
+                                </Radio>
+                                <Radio colorScheme='blue' value='Wrong'>
+                                Wrong
+                                </Radio>
+                            </Stack>
+                        </RadioGroup>
                     </Box>
-                    <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" mt={25}>
+                    <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" mt={25} pb={10}> 
                         <Center fontSize={20} fontWeight="bold" color="#4299E1" py={15}>Filter By Product</Center>
                         <RadioGroup textAlign="start" pl={10}>
                             <Stack spacing={5} direction='column'>
-                                <Radio colorScheme='blue' value='1' defaultChecked>
+                                <Radio colorScheme='blue' value='' defaultChecked>
                                     All Products
                                 </Radio>                                
-                                <Radio colorScheme='blue' value='2'>
+                                <Radio colorScheme='blue' value='Shirt'>
                                     Shirt
                                 </Radio>
-                                <Radio colorScheme='blue' value='3'>
+                                <Radio colorScheme='blue' value='Jeans'>
                                     Jeans
                                 </Radio>
-                                <Radio colorScheme='blue' value='4'>
+                                <Radio colorScheme='blue' value='Kurtas'>
                                     Kurta
                                 </Radio>
-                                <Radio colorScheme='blue' value='5'>
+                                <Radio colorScheme='blue' value='T-Shirt'>
                                     T-Shirt
                                 </Radio>
-                                <Radio colorScheme='blue' value='6'>
+                                <Radio colorScheme='blue' value='Shoes'>
                                     Shoes
                                 </Radio>
-                                <Radio colorScheme='blue' value='7'>
+                                <Radio colorScheme='blue' value='Jacket'>
                                     Jacket
                                 </Radio>
                             </Stack>
@@ -154,3 +168,5 @@ const Men = () => {
 }
 
 export default Men;
+
+

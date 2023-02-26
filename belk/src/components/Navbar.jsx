@@ -1,6 +1,6 @@
-import { Box,Flex, Spacer,Input,InputGroup,Image, Button,InputRightElement } from '@chakra-ui/react';
+import { Box,Flex, Spacer,Input,InputGroup,Image, Button,InputRightElement,useToast } from '@chakra-ui/react';
 import { color } from 'framer-motion';
-import { NavLink,Link,Navigate } from 'react-router-dom';
+import { NavLink,Link,Navigate,useNavigate } from 'react-router-dom';
 import "./Navbar.css";
 import logo from "./logo.png";
 import { useContext } from 'react';
@@ -29,13 +29,25 @@ let lower_link = [
 const Navbar = () =>{
 
     const {isAuth,logout} = useContext(AuthContext);
+    const toast = useToast();
+    const navigate = useNavigate();
 
     const logout_function = async () =>{
-        alert("Logout Successfully");
+        // alert("Logout Successfully");
         logout();
-        if(!isAuth){
-            return <Navigate to="/login"/>
-        }
+        toast({
+            title: 'Logout Successfully.',
+            description: "You've been logout from your account.",
+            status: 'success',
+            position:"top",
+            duration: 3000,
+            isClosable: true,
+          })
+          navigate("/login");
+        // if(!isAuth){
+        //     return <Navigate to="/login"/>
+           
+        // }
     }
 
 

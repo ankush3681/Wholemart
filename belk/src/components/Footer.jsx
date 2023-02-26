@@ -4,6 +4,7 @@ import {GrFacebook} from "react-icons/gr";
 import {SiInstagram} from "react-icons/si";
 import {AiFillTwitterCircle} from "react-icons/ai";
 import {BsPinterest} from "react-icons/bs";
+import {Link} from "react-router-dom";
 
 
 const Footer = () => {
@@ -86,6 +87,7 @@ const Footer = () => {
       <Image src="https://media.istockphoto.com/id/828088276/vector/qr-code-illustration.jpg?s=612x612&w=0&k=20&c=FnA7agr57XpFi081ZT5sEmxhLytMBlK4vzdQxt8A70M=" w="50%" mb={10}/>
       <Image src="https://belk.scene7.com/is/image/Belk/footer-app-ios-badge-2x?&$DWP_ARTWORK$" w="50%"  mb={5}/>
       <Image src="https://belk.scene7.com/is/image/Belk/footer-app-android-badge-2x?&$DWP_ARTWORK$" w="50%" />
+      
      </Box>
     </Flex>
 

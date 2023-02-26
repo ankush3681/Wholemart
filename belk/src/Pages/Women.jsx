@@ -13,6 +13,9 @@ const Women = () => {
 
     const [data, setData] = useState([]);
     const [page, setPage] = useState(1);
+    const [order,setOrder] = useState("");
+    const[pagelimit,setPageLimit] = useState(0);
+
 
     const getData = (page) => {
         return axios(`http://localhost:8080/womens?_page=${page}&_limit=12`)
@@ -23,12 +26,36 @@ const Women = () => {
 
     useEffect(() => {
         getData(page);
-    }, [page]);
+        sortLow(order);
+    }, [page,order]);
 
     const handleCart = () => {
         alert("Item Added to the cart Successfully");
     }
 
+    const sortLow =async (order) =>{
+
+        if(order){
+
+            // let res = await axios(`http://localhost:8080/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
+            //    setData(res.data)
+            //    setPageLimit(res.headers["x-total-count"])
+
+            axios.get(`http://localhost:8080/womens?_page=${page}&_limit=12&_sort=price&_order=${order}`)
+            .then((res)=>{
+                setData(res.data);
+                console.log(res)
+                setPageLimit(res.headers["x-total-count"])
+                console.log(pagelimit)
+            })
+           }else{
+            let res = await axios(`http://localhost:8080/womens?_page=${page}&_limit=12`)
+            setData(res.data)
+            setPageLimit(res.headers["x-total-count"])
+    }
+          
+
+    }
 
 
     return <>
@@ -39,7 +66,13 @@ const Women = () => {
 
             <Box m='auto' mt={120} w="90%" bg="white" >
 
-            
+            <Image src="https://belk.scene7.com/is/image/Belk/wk48_2022_chan_women_1226_fh_1?$DWP_PHOTO$" m="auto" mb={20}/>
+            <Image src=""/>
+            <Image src="https://belk.scene7.com/is/image/Belk/wk31_2022_chan_women_0829_denim_fh_1?$DWP_PHOTO$" m="auto" />
+            <Image src="https://belk.scene7.com/is/image/Belk/wk31_2022_chan_women_0829_denim_fh_2?$DWP_PHOTO$" m="auto" />
+            <Image src="https://belk.scene7.com/is/image/Belk/wk31_2022_chan_women_0829_denim_fh_3?$DWP_PHOTO$" m="auto" mb={20}/>
+            <Image src="https://belk.scene7.com/is/image/Belk/wk04_2023_SPEC_lovefordenim_fp_fh_2?$DWP_PHOTO$" m="auto" mb={20}/>
+            <Image src="https://belk.scene7.com/is/image/Belk/wk50_2023_chan_women_0109_fh_1?$DWP_PHOTO$" m="auto" mb={20}/>
 
 
             </Box>
@@ -50,43 +83,58 @@ const Women = () => {
             <Flex p={5} m="auto" mt={120} mb={50} w="80%" boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" bg="white" h="auto">
                 <Box w="20%" h="100%" pr={5}>
 
-                    <Select placeholder='Sort By Price' border="1px solid grey" mb={5} mt={50}>
+                    <Select placeholder='Sort By Price'  onChange={(e)=>setOrder(e.target.value)} border="1px solid grey" mb={5} mt={50}>
                         <option value='option1'>Low To High</option>
                         <option value='option2'>High To Low</option>
                     </Select>
-                    <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
+                    <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" mt={25} pb={10}>
                         <Center fontSize={20} fontWeight="bold" color="#4299E1" py={15}>Filter By Brand</Center>
-                        <Box textAlign="start" pl={10}>
-                            <Checkbox >Puma</Checkbox><br /><br />
-                            <Checkbox >Campus</Checkbox><br /><br />
-                            <Checkbox >Addidas</Checkbox><br /><br />
-                            <Checkbox >Nike</Checkbox><br /><br />
-                            <Checkbox >Wrong</Checkbox><br /><br />
-                        </Box>
+                        <RadioGroup textAlign="start" pl={10}>
+                            <Stack spacing={5} direction='column'>
+                                <Radio colorScheme='blue' value='' defaultChecked>
+                                    All Products
+                                </Radio>                                
+                                <Radio colorScheme='blue' value='Puma'>
+                                Puma
+                                </Radio>
+                                <Radio colorScheme='blue' value='Campus'>
+                                Campus
+                                </Radio>
+                                <Radio colorScheme='blue' value='Adidas'>
+                                Addidas
+                                </Radio>
+                                <Radio colorScheme='blue' value='Roadster'>
+                                Roadster
+                                </Radio>
+                                <Radio colorScheme='blue' value='Wrong'>
+                                Wrong
+                                </Radio>
+                            </Stack>
+                        </RadioGroup>
                     </Box>
-                    <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" mt={25}>
+                    <Box boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" mt={25} pb={10}>
                         <Center fontSize={20} fontWeight="bold" color="#4299E1" py={15}>Filter By Product</Center>
                         <RadioGroup textAlign="start" pl={10}>
                             <Stack spacing={5} direction='column'>
-                                <Radio colorScheme='blue' value='1' defaultChecked>
+                                <Radio colorScheme='blue' value='' defaultChecked>
                                     All Products
                                 </Radio>                                
-                                <Radio colorScheme='blue' value='2'>
+                                <Radio colorScheme='blue' value='Top'>
                                     Top
                                 </Radio>
-                                <Radio colorScheme='blue' value='3'>
+                                <Radio colorScheme='blue' value='Jeans'>
                                     Jeans
                                 </Radio>
-                                <Radio colorScheme='blue' value='4'>
+                                <Radio colorScheme='blue' value='Kurtas'>
                                     Kurta
                                 </Radio>
-                                <Radio colorScheme='blue' value='5'>
+                                <Radio colorScheme='blue' value='Saree'>
                                    Saree
                                 </Radio>
-                                <Radio colorScheme='blue' value='6'>
+                                <Radio colorScheme='blue' value='Shoes'>
                                     Shoes
                                 </Radio>
-                                <Radio colorScheme='blue' value='7'>
+                                <Radio colorScheme='blue' value='Jacket'>
                                     Jacket
                                 </Radio>
                             </Stack>
