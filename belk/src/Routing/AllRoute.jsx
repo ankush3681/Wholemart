@@ -1,5 +1,4 @@
 import { Routes,Route } from "react-router-dom";
-import Beauty from "../Pages/Beauty";
 import BedBath from "../Pages/BedBath";
 import Brand from "../Pages/Brands";
 import Clearance from "../Pages/Clearance";
@@ -23,7 +22,6 @@ import KidSingle from "../Pages/KidSingle";
 const AllRoute = () =>{
     return <Routes>
     <Route path="/*" element={<Home/>}></Route>
-    <Route element={<Beauty/>}></Route>
     <Route element={<Brand/>}></Route>
     <Route element={<Gifts/>}></Route>
     <Route element={<Handbag/>}></Route>
