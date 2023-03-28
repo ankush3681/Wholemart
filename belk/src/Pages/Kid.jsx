@@ -1,11 +1,13 @@
 import { Box, Button, Flex, Image, Center, Select, Checkbox,RadioGroup,Radio,Stack, Accordion,useToast } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
+import { useEffect, useState,useContext } from "react";
 import Navbar from "../components/Navbar";
 import axios from "axios";
 import { BsCartPlusFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import FencySlider from "../components/homeslider/FencySlider";
+import { CartContext } from '../context/CartContext';
+
 
 
 
@@ -18,24 +20,22 @@ const Kid = () => {
     const[pagelimit,setPageLimit] = useState(0);
     const [category,setCatagory] = useState("");
     const [product,setProduct] = useState("");
-    const [cartData,setCartData] = useState([]);
+    // const [cartData,setCartData] = useState([]);
+    const {setCartData,cartData} = useContext(CartContext);
+
     const toast = useToast();
     // console.log(category);
     // console.log(cartData)
 
 
-    // console.log(order)
-
-
-    // if(order){
-    //     console.log("ankush")
-    // }
+   
 
 
     const getData = (page) => {
-         axios(`http://localhost:8080/kids?_page=${page}&_limit=12`)
+         axios(`https://filthy-frog-pants.cyclic.app/kids?_page=${page}&_limit=12`)
             .then((res) => {
                 setData(res.data)
+                console.log(res);
                 setPageLimit(res.headers["x-total-count"])
             });
     }
@@ -61,46 +61,24 @@ const Kid = () => {
 
     // sort by price
 
-    function justForSetOrder(value){
-        if(value=='asc'){
-            console.log(value)
+    // function justForSetOrder(value){
+    //     if(value=='asc'){
+    //         console.log(value)
 
-            // let res = await axios(`http://localhost:8080/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
-            //    setData(res.data)
-            //    setPageLimit(res.headers["x-total-count"])
-            let temp = [...data];
-            temp = temp.sort(function (a, b){
-                return +a.price - +b.price
-            })
-            // setData(temp);
-            // console.log(temp)
-        //     axios.get(`http://localhost:8080/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
-        //     .then((res)=>{
-        //         setData(res.data);
-        //         console.log(res.data)
-        //         setPageLimit(res.headers["x-total-count"])
-        //         console.log(pagelimit)
-        //     })
-        //    }else{
-        //     let res = await axios(`http://localhost:8080/kids?_page=${page}&_limit=12`)
-        //     setData(res.data)
-        //     setPageLimit(res.headers["x-total-count"])
-    }
-    }
+            
+    //         let temp = [...data];
+    //         temp = temp.sort(function (a, b){
+    //             return +a.price - +b.price
+    //         })
+           
+    // }
+    // }
     const sortLow =async (order) =>{
 
         if(order){
 
-            // let res = await axios(`http://localhost:8080/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
-            //    setData(res.data)
-            //    setPageLimit(res.headers["x-total-count"])
-            // let temp = [...data];
-            // temp = temp.sort(function (a, b){
-            //     return +a.price - +b.price
-            // })
-            // setData(temp);
-            // console.log(temp)
-            axios.get(`http://localhost:8080/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
+           
+            axios.get(`https://filthy-frog-pants.cyclic.app/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
             .then((res)=>{
                 setData(res.data);
                 console.log(res.data)
@@ -108,13 +86,26 @@ const Kid = () => {
                 console.log(pagelimit)
             })
            }else{
-            let res = await axios(`http://localhost:8080/kids?_page=${page}&_limit=12`)
+            let res = await axios(`https://filthy-frog-pants.cyclic.app/kids?_page=${page}&_limit=12`)
             setData(res.data)
             setPageLimit(res.headers["x-total-count"])
     }
           
 
     }
+
+
+    const CartFunction = () =>{
+        setCartData([...cartData,data]);
+        toast({
+          title: 'Item Added to Cart.',
+          description: "You can check it in cart section",
+          status: 'success',
+          position:"top",
+          duration: 3000,
+          isClosable: true,
+        })
+       }
 
 
 
@@ -126,14 +117,14 @@ const Kid = () => {
     const handelCatagory = (category) =>{
         if(category){
             console.log(category)
-            axios.get(`http://localhost:8080/kids?brand=${category}&_page=${page}&_limit=12`)
+            axios.get(`https://filthy-frog-pants.cyclic.app/kids?brand=${category}&_page=${page}&_limit=12`)
             .then((res)=>{
                console.log(res);
                setData(res.data);
                setPageLimit(res.headers["x-total-count "])
             })
         }else{
-            axios.get(`http://localhost:8080/kids?_page=${page}&_limit=12`)
+            axios.get(`https://filthy-frog-pants.cyclic.app/kids?_page=${page}&_limit=12`)
             .then((res)=>{
             //    console.log(res.data);
             //    console.log(res.data.length)
@@ -150,14 +141,14 @@ const Kid = () => {
     const handleProduct = (product) =>{
         if(product){
             console.log(product)
-            axios.get(`http://localhost:8080/kids?title=${product}&_page=${page}&_limit=6`)
+            axios.get(`https://filthy-frog-pants.cyclic.app/kids?title=${product}&_page=${page}&_limit=6`)
             .then((res)=>{
                console.log(res.data);
                setData(res.data);
                setPageLimit(res.headers["x-total-count "])
             })
         }else{
-            axios.get(`http://localhost:8080/kids?_page=${page}&_limit=12`)
+            axios.get(`https://filthy-frog-pants.cyclic.app/kids?_page=${page}&_limit=12`)
             .then((res)=>{
                console.log(res.data);
             //    console.log(res.data.length)
@@ -289,7 +280,7 @@ const Kid = () => {
                             <Center fontWeight="bold" my={2}>Rs.{item.price}</Center>
                             <Center fontWeight="bold" mb={2}>{item.brand}</Center>
                             <Flex justifyContent="space-between" alignItems="center">
-                                <BsCartPlusFill size={30} color="#E53E3E" cursor="pointer" onClick={()=>setCartData(item)} />
+                                <BsCartPlusFill size={30} color="#E53E3E" cursor="pointer"  onClick={CartFunction} />
                                 <Link to={`/kid/${item.id}`} > <Button color="white" bg="#4299E1" border="1px solid white" borderRadius="5px"
                                 >View Detail</Button></Link>
                             </Flex>

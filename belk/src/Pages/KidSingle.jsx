@@ -20,11 +20,19 @@ const KidSingle = () => {
 
    const CartFunction = () =>{
     setCartData([...cartData,user]);
+    toast({
+      title: 'Item Added to Cart.',
+      description: "You can check it in cart section",
+      status: 'success',
+      position:"top",
+      duration: 3000,
+      isClosable: true,
+    })
    }
 
     const getData = () =>{
       setLoading(true)
-      axios.get(`http://localhost:8080/kids/${val.user_id}`)
+      axios.get(`https://filthy-frog-pants.cyclic.app/kids/${val.user_id}`)
       .then((res)=>{
          setUser(res.data)
          setLoading(false);

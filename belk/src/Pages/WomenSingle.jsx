@@ -15,7 +15,7 @@ const MenSingle = () => {
 
     const getData = () =>{
       setLoading(true)
-      axios.get(`http://localhost:8080/womens/${val.user_id}`)
+      axios.get(`https://filthy-frog-pants.cyclic.app/womens/${val.user_id}`)
       .then((res)=>{
          setUser(res.data)
          setLoading(false);
