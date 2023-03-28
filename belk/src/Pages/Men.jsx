@@ -13,17 +13,44 @@ const Men = () => {
 
     const [data, setData] = useState([]);
     const [page, setPage] = useState(1);
+    const[pagelimit,setPageLimit] = useState(0);
+    const [order,setOrder] = useState("");
 
     const getData = (page) => {
-        return axios(`http://localhost:8080/mens?_page=${page}&_limit=12`)
+        return axios(`https://filthy-frog-pants.cyclic.app/mens?_page=${page}&_limit=12`)
             .then((res) => {
                 setData(res.data)
             });
     }
 
+
+
+    const sortLow =async (order) =>{
+
+        if(order){
+
+           
+            axios.get(`https://filthy-frog-pants.cyclic.app/kids?_page=${page}&_limit=12&_sort=price&_order=${order}`)
+            .then((res)=>{
+                setData(res.data);
+                console.log(res.data)
+                setPageLimit(res.headers["x-total-count"])
+                console.log(pagelimit)
+            })
+           }else{
+            let res = await axios(`https://filthy-frog-pants.cyclic.app/kids?_page=${page}&_limit=12`)
+            setData(res.data)
+            setPageLimit(res.headers["x-total-count"])
+    }
+          
+
+    }
+
+
     useEffect(() => {
         getData(page);
-    }, [page]);
+        sortLow(order);
+    }, [page,order]);
 
     const handleCart = () => {
         alert("Item Added to the cart Successfully");
@@ -65,7 +92,7 @@ const Men = () => {
             <Flex p={5} m="auto" mt={120} mb={50} w="80%" boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" bg="white" h="auto">
                 <Box w="20%" h="100%" pr={5}>
 
-                    <Select placeholder='Sort By Price' border="1px solid grey" mb={5} mt={50}>
+                    <Select placeholder='Sort By Price' border="1px solid grey"  onChange={(e)=>setOrder(e.target.value)} mb={5} mt={50}>
                         <option value='option1'>Low To High</option>
                         <option value='option2'>High To Low</option>
                     </Select>

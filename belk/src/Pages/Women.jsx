@@ -18,7 +18,7 @@ const Women = () => {
 
 
     const getData = (page) => {
-        return axios(`http://localhost:8080/womens?_page=${page}&_limit=12`)
+        return axios(`https://filthy-frog-pants.cyclic.app/womens?_page=${page}&_limit=12`)
             .then((res) => {
                 setData(res.data)
             });

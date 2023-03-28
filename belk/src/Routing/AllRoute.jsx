@@ -28,7 +28,11 @@ const AllRoute = () =>{
     <Route element={<Gifts/>}></Route>
     <Route element={<Handbag/>}></Route>
     <Route element={<Jewelry/>}></Route>
-    <Route path="/kid" element={<Kid/>}></Route>
+    <Route path="/kid" element={
+    <PrivateRoute>
+    <Kid/>
+    </PrivateRoute>
+    }></Route>
     <Route path="/men" element={
     <PrivateRoute>
     <Men/>
