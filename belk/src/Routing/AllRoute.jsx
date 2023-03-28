@@ -8,7 +8,6 @@ import Handbag from "../Pages/Handbag";
 import Jewelry from "../Pages/Jewellry";
 import Kid from "../Pages/Kid";
 import Men from "../Pages/Men";
-import Shoes from "../Pages/Shoes";
 import Women from "../Pages/Women";
 import Home from "../components/Home"
 import Cart from "../Pages/Cart";
@@ -38,7 +37,6 @@ const AllRoute = () =>{
     <Men/>
     </PrivateRoute>
     }></Route>
-    <Route element={<Shoes/>}></Route>
     <Route path="/women" element={<Women/>}></Route>
     <Route  element={<BedBath/>}></Route>
     <Route  element={<Clearance/>}></Route>
