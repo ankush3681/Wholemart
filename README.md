@@ -29,3 +29,7 @@ Objective :- Objective of this project is to implement all the skills and tech s
  <li> Sorting</li>
  <li> Cart </li>
  </ul>
+ 
+ <h2> Login Credentials </h2>
+ Email - eve.holt@reqres.in
+ password - belk
