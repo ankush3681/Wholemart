@@ -1,6 +1,9 @@
 # honest-boat-2230
 React Based Project
 
+<span> <h3>Deployed Link :- </h3> </span> (https://wholemart.netlify.app/)
+<br/>
+
 <img src="https://static1.lenskart.com/media/desktop/img/Jan23/sunglasses/Sun-Banner-web.gif" />
 
 This project is an individual project made in a span of 5 days from scratch. It is the clone of belk website which offer apparel, shoes, accessories, cosmetics, home furnishings, and wedding registry.
