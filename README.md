@@ -30,6 +30,8 @@ Objective :- Objective of this project is to implement all the skills and tech s
  <li> Cart </li>
  </ul>
  
+ <Img src="https://static1.lenskart.com/media/desktop/img/Oct22/kiara/Refresh-Banner-Web.gif" alt= "belk image" />
+ 
  <h2> Login Credentials </h2>
  Email - eve.holt@reqres.in
  <br/>
