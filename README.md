@@ -1,7 +1,7 @@
 # honest-boat-2230
 React Based Project
 
-<span> <h3>Deployed Link :- </h3> </span> (https://wholemart.netlify.app/)
+<span> <h3>Deployed Link :- </h3> https://wholemart.netlify.app/ </span> 
 <br/>
 
 <img src="https://static1.lenskart.com/media/desktop/img/Jan23/sunglasses/Sun-Banner-web.gif" />
