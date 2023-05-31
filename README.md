@@ -1,4 +1,4 @@
-# honest-boat-2230
+# Wholemart
 React Based Project
 
 <span> <h3>Deployed Link :- </h3> https://wholemart.netlify.app/ </span> 
