@@ -1,12 +1,14 @@
-# honest-boat-2230
-React Based Project
+# Wholemart
+
+This project is an individual project made in a span of 5 days from scratch. It is the clone of belk website which offer apparel, shoes, accessories, cosmetics, home furnishings, and wedding registry.
+
 
 <span> <h3>Deployed Link :- </h3> https://wholemart.netlify.app/ </span> 
 <br/>
 
 <img src="https://static1.lenskart.com/media/desktop/img/Jan23/sunglasses/Sun-Banner-web.gif" />
 
-This project is an individual project made in a span of 5 days from scratch. It is the clone of belk website which offer apparel, shoes, accessories, cosmetics, home furnishings, and wedding registry.
+
 
 Objective :- Objective of this project is to implement all the skills and tech stacks which I had learned. 
 
