@@ -2,9 +2,10 @@ import React, { useContext, useEffect, useState } from 'react'
 import Navbar from '../components/Navbar';
 import {Box,Image,Flex, Button,Spinner, Heading,Text,useToast } from "@chakra-ui/react";
 import logo from "./userlogo.jpg";
-import {Link, useParams} from "react-router-dom";
+import {Link, useNavigate, useParams} from "react-router-dom";
 import axios from "axios";
 import { CartContext } from '../context/CartContext';
+import { AuthContext } from "../context/AuthContextProvider";
 
 const KidSingle = () => {
 
@@ -12,7 +13,9 @@ const KidSingle = () => {
   
   const [user,setUser] = useState({});
   const [loading,setLoading] = useState(false);
-  const toast = useToast();
+  const { isAuth } = useContext(AuthContext);
+    const toast = useToast();
+    const navigate = useNavigate();
 
     const val = useParams();
 
@@ -20,14 +23,19 @@ const KidSingle = () => {
 
    const CartFunction = () =>{
     setCartData([...cartData,user]);
-    toast({
-      title: 'Item Added to Cart.',
-      description: "You can check it in cart section",
-      status: 'success',
-      position:"top",
-      duration: 3000,
-      isClosable: true,
-    })
+    if(isAuth){
+      toast({
+          title: 'Item Added to Cart.',
+          description: "You can check it in cart section",
+          status: 'success',
+          position:"top",
+          duration: 3000,
+          isClosable: true,
+        })
+  }else{
+      alert("please login first")
+      navigate("/login")
+  }
    }
 
     const getData = () =>{
@@ -44,14 +52,19 @@ const KidSingle = () => {
     }
 
        const handleCart = () => {
-      toast({
-          title: 'Item Added to Cart.',
-          description: "You can check it in cart section",
-          status: 'success',
-          position:"top",
-          duration: 3000,
-          isClosable: true,
-        })
+        if(isAuth){
+          toast({
+              title: 'Item Added to Cart.',
+              description: "You can check it in cart section",
+              status: 'success',
+              position:"top",
+              duration: 3000,
+              isClosable: true,
+            })
+      }else{
+          alert("please login first")
+          navigate("/login")
+      }
   }
 
     useEffect(()=>{

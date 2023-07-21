@@ -3,11 +3,11 @@ import { useEffect, useState,useContext } from "react";
 import Navbar from "../components/Navbar";
 import axios from "axios";
 import { BsCartPlusFill } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import FencySlider from "../components/homeslider/FencySlider";
 import { CartContext } from '../context/CartContext';
-
+import { AuthContext } from "../context/AuthContextProvider";
 
 
 
@@ -22,8 +22,9 @@ const Kid = () => {
     const [product,setProduct] = useState("");
     // const [cartData,setCartData] = useState([]);
     const {setCartData,cartData} = useContext(CartContext);
-
+    const { isAuth } = useContext(AuthContext);
     const toast = useToast();
+    const navigate = useNavigate();
     // console.log(category);
     // console.log(cartData)
 
@@ -97,14 +98,19 @@ const Kid = () => {
 
     const CartFunction = () =>{
         setCartData([...cartData,data]);
-        toast({
-          title: 'Item Added to Cart.',
-          description: "You can check it in cart section",
-          status: 'success',
-          position:"top",
-          duration: 3000,
-          isClosable: true,
-        })
+        if(isAuth){
+            toast({
+                title: 'Item Added to Cart.',
+                description: "You can check it in cart section",
+                status: 'success',
+                position:"top",
+                duration: 3000,
+                isClosable: true,
+              })
+        }else{
+            alert("please login first")
+            navigate("/login")
+        }
        }
 
 

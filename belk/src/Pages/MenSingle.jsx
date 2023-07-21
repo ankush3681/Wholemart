@@ -2,14 +2,18 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar';
 import {Box,Image,Flex, Button,Spinner, Heading,Text,useToast } from "@chakra-ui/react";
 import logo from "./userlogo.jpg";
-import {Link, useParams} from "react-router-dom";
+import {Link, useNavigate, useParams} from "react-router-dom";
 import axios from "axios";
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContextProvider";
 
 const MenSingle = () => {
 
   const [user,setUser] = useState([]);
   const [loading,setLoading] = useState(false);
+  const { isAuth } = useContext(AuthContext);
   const toast = useToast();
+  const navigate = useNavigate();
     const val = useParams();
     // console.log(val.user_id)
 
@@ -31,14 +35,19 @@ const MenSingle = () => {
     },[]);
 
     const handleCart = () => {
-      toast({
-          title: 'Item Added to Cart.',
-          description: "You can check it in cart section",
-          status: 'success',
-          position:"top",
-          duration: 3000,
-          isClosable: true,
-        })
+      if(isAuth){
+        toast({
+            title: 'Item Added to Cart.',
+            description: "You can check it in cart section",
+            status: 'success',
+            position:"top",
+            duration: 3000,
+            isClosable: true,
+          })
+    }else{
+        alert("please login first")
+        navigate("/login")
+    }
   }
 
 

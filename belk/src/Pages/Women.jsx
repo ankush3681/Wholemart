@@ -1,21 +1,24 @@
-import { Box, Button, Flex, Image, Center, Select, Checkbox,RadioGroup,Radio,Stack } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Center, Select, Checkbox,RadioGroup,Radio,Stack, useToast } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import axios from "axios";
 import { BsCartPlusFill } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
-
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContextProvider";
 
 
 
 const Women = () => {
 
+    const { isAuth } = useContext(AuthContext);
     const [data, setData] = useState([]);
     const [page, setPage] = useState(1);
     const [order,setOrder] = useState("");
     const[pagelimit,setPageLimit] = useState(0);
-
+    const navigate = useNavigate();
+    const toast = useToast();
 
     const getData = (page) => {
         return axios(`https://filthy-frog-pants.cyclic.app/womens?_page=${page}&_limit=12`)
@@ -30,7 +33,19 @@ const Women = () => {
     }, [page,order]);
 
     const handleCart = () => {
-        alert("Item Added to the cart Successfully");
+        if(isAuth){
+            toast({
+                title: 'Item Added to Cart.',
+                description: "You can check it in cart section",
+                status: 'success',
+                position:"top",
+                duration: 3000,
+                isClosable: true,
+              })
+        }else{
+            alert("please login first")
+            navigate("/login")
+        }
     }
 
     const sortLow =async (order) =>{
